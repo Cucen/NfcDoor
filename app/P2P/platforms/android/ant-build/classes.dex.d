@@ -1,0 +1,21 @@
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes.dex : \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$1.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$2.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$3.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$4.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$5.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$6.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$7.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$8.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$9.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\Util.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\example\p2p\BuildConfig.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\example\p2p\CordovaApp.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\example\p2p\R$attr.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\example\p2p\R$drawable.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\example\p2p\R$string.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\example\p2p\R$xml.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\com\example\p2p\R.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\classes\org\apache\cordova\api\Dummy.class \
+c:\Users\Muzeyyen\P2P\platforms\android\ant-build\dexedLibs\classes-de1bb3136573d5b56fc0102ef1472425.jar \

@@ -1,0 +1,2522 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Tables\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-25 10:02+0100\n"
+"PO-Revision-Date: 2013-10-25 10:03+0100\n"
+"Last-Translator: Stefan M. <blog@murawski.ch>\n"
+"Language-Team: Stefan M. <fragen@wuk.ch>\n"
+"Language: en_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../custom-tables-search.php:774 ../custom-tables-widget.php:434
+msgid ""
+"The Premium Extension is Single Domain Usage only! Please activate it only "
+"on the subpages directly.<br/><br/>This Plugin extension will be "
+"automatically disabled."
+msgstr ""
+"The Premium Extension is Single Domain Usage only! Please activate it only "
+"on the subpages directly.<br/><br/>This Plugin extension will be "
+"automatically disabled."
+
+#: ../custom-tables-search.php:783 ../custom-tables-widget.php:443
+msgid ""
+"This is a Premium Extension! The usage without a key is prohibited.<br/><br/"
+">This Plugin extension will be automatically disabled."
+msgstr ""
+"This is a Premium Extension! The usage without a key is prohibited.<br/><br/"
+">This Plugin extension will be automatically disabled."
+
+#: ../custom-tables-widget.php:18
+msgid "The recent posts of your blogroll links"
+msgstr "The recent posts of your blogroll links"
+
+#: ../custom-tables-widget.php:156
+msgid "Show all Entries"
+msgstr "Show all Entries"
+
+#: ../custom-tables-widget.php:164
+msgid "Widget not configurated"
+msgstr "Widget not configurated"
+
+#: ../custom-tables-widget.php:291
+msgid "Title:"
+msgstr "Title:"
+
+#: ../custom-tables-widget.php:295
+msgid "Table Page URL:"
+msgstr "Table Page URL:"
+
+#: ../custom-tables-widget.php:299
+msgid "Generate Widget from Table"
+msgstr "Generate Widget from Table"
+
+#: ../custom-tables-widget.php:300 ../pages/setup_form.php:29
+msgid "Select Table"
+msgstr "Select Table"
+
+#: ../custom-tables-widget.php:363 ../custom-tables-widget.php:372
+msgid "List Items of Field"
+msgstr "List Items of Field"
+
+#: ../custom-tables-widget.php:364 ../custom-tables-widget.php:373
+msgid "Select Fields"
+msgstr "Select Fields"
+
+#: ../custom-tables-widget.php:367 ../custom-tables-widget.php:376
+msgid "Only Enum() and Set() fields can be selected"
+msgstr "Only Enum() and Set() fields can be selected"
+
+#: ../custom-tables-widget.php:381
+msgid "Order of Links"
+msgstr "Order of Links"
+
+#: ../custom-tables-widget.php:382
+msgid "Select Order"
+msgstr "Select Order"
+
+#: ../custom-tables-widget.php:384
+msgid "Item Count (DESC)"
+msgstr "Item Count (DESC)"
+
+#: ../custom-tables-widget.php:385
+msgid "Item Count (ASC)"
+msgstr "Item Count (ASC)"
+
+#: ../custom-tables-widget.php:386
+msgid "Field Content (ASC)"
+msgstr "Field Content (ASC)"
+
+#: ../custom-tables-widget.php:387
+msgid "Field Content (DESC)"
+msgstr "Field Content (DESC)"
+
+#: ../custom-tables-widget.php:392
+msgid "Show count"
+msgstr "Show count"
+
+#: ../custom-tables-widget.php:396
+msgid "Hide empty tables links"
+msgstr "Hide empty tables links"
+
+#: ../custom-tables-widget.php:400
+msgid "Widget Handling"
+msgstr "Widget Handling"
+
+#: ../custom-tables-widget.php:402
+msgid "Show and hide List possible"
+msgstr "Show and hide List possible"
+
+#: ../custom-tables-widget.php:405
+msgid "List opened as Default"
+msgstr "List opened as Default"
+
+#: ../custom-tables-widget.php:408
+msgid "Hide All Entries Tag"
+msgstr "Hide All Entries Tag"
+
+#: ../custom-tables-widget.php:414 ../pages/tag_gen.php:154
+#: ../pages/tag_gen.php:263 ../pages/tag_gen.php:343 ../pages/tag_gen.php:425
+#: ../pages/tag_gen.php:480 ../pages/tag_gen.php:542
+msgid "SQL Filter"
+msgstr "SQL Filter"
+
+#: ../custom-tables-widget.php:418
+#, php-format
+msgid "List max %s Entries"
+msgstr "List max %s Entries"
+
+#: ../custom-tables.php:193
+msgid "Captcha"
+msgstr "Captcha"
+
+#: ../custom-tables.php:251
+msgid "WCT Cronjob deactivated"
+msgstr "WCT Cronjob deactivated"
+
+#: ../custom-tables.php:251
+msgid "Cronjob was deactivated because of an error."
+msgstr "Cronjob was deactivated because of an error."
+
+#: ../custom-tables.php:345
+#, php-format
+msgid "Needed Custom Tables DB Update '%s' DB Update not found!"
+msgstr "Needed Custom Tables DB Update '%s' DB Update not found!"
+
+#: ../custom-tables.php:363
+msgid "Please setup Smarttag correctly (No entry submitted)"
+msgstr "Please setup Smarttag correctly (No entry submitted)"
+
+#: ../custom-tables.php:420 ../custom-tables.php:447 ../custom-tables.php:915
+#: ../pages/setup_view.php:88
+msgid ""
+"Premium functionality has not been activated in the plugin. Please check for "
+"a valid licence!"
+msgstr ""
+"Premium functionality has not been activated in the plugin. Please check for "
+"a valid licence!"
+
+#: ../custom-tables.php:465 ../pages/editcontent.php:600
+msgid "Clear"
+msgstr "Clear"
+
+#: ../custom-tables.php:495 ../pages/tag_gen.php:339 ../pages/tag_gen.php:359
+#: ../pages/tag_gen.php:445
+msgid "All entries"
+msgstr "All entries"
+
+#: ../custom-tables.php:522 ../pages/tag_gen.php:420
+msgid "Choose an Option"
+msgstr "Choose an Option"
+
+#: ../custom-tables.php:546
+msgid "No field given"
+msgstr "No field given"
+
+#: ../custom-tables.php:582
+msgid "Change Table"
+msgstr "Change Table"
+
+#: ../custom-tables.php:618 ../custom-tables.php:908
+msgid "Custom Tables"
+msgstr "Custom Tables"
+
+#: ../custom-tables.php:619
+msgid ""
+"On the Navigation panel at the left, you can create new Tables or edit the "
+"existing ones"
+msgstr ""
+"On the Navigation panel at the left, you can create new Tables or edit the "
+"existing ones"
+
+#: ../custom-tables.php:621
+msgid "If you have questions or problems, please do not hesitate to contact us"
+msgstr ""
+"If you have questions or problems, please do not hesitate to contact us"
+
+#: ../custom-tables.php:801
+msgid "Database Update done"
+msgstr "Database Update done"
+
+#: ../custom-tables.php:854 ../pages/setup_settings.php:130
+#: ../pages/setup_table.php:334
+msgid "Create Table"
+msgstr "Create Table"
+
+#: ../custom-tables.php:877 ../pages/importexport.php:80
+#: ../pages/importexport.php:84
+msgid "Table"
+msgstr "Table"
+
+#: ../custom-tables.php:879
+msgid "Archive"
+msgstr "Archive"
+
+#: ../custom-tables.php:879
+msgid "Article Archive"
+msgstr "Article Archive"
+
+#: ../custom-tables.php:882 ../pages/setup_form.php:147
+msgid "Create Form"
+msgstr "Create Form"
+
+#: ../custom-tables.php:886
+msgid "Form"
+msgstr "Form"
+
+#: ../custom-tables.php:888 ../pages/setup_fields.php:79
+msgid "Own DB Fields"
+msgstr "Own DB Fields"
+
+#: ../custom-tables.php:891 ../pages/setup_settings.php:131
+msgid "Edit CSS"
+msgstr "Edit CSS"
+
+#: ../custom-tables.php:893 ../pages/cronjob.php:95
+msgid "Cronjob"
+msgstr "Cronjob"
+
+#: ../custom-tables.php:895
+msgid "Settings"
+msgstr "Settings"
+
+#: ../custom-tables.php:896 ../pages/setup_settings.php:135
+msgid "Backup/Restore"
+msgstr "Backup/Restore"
+
+#: ../custom-tables.php:897 ../pages/tag_gen.php:14
+msgid "Smarttag Generator"
+msgstr "Smarttag Generator"
+
+#: ../custom-tables.php:898
+msgid "WCT Webpage"
+msgstr "WCT Webpage"
+
+#: ../custom-tables.php:958 ../pages/setup_settings.php:275
+#, php-format
+msgid "Premium features licensed. Valid until %s."
+msgstr "Premium features licensed. Valid until %s."
+
+#: ../custom-tables.php:961 ../pages/setup_form.php:147
+msgid ""
+"You can create Forms that Visitors or People can edit the content of your "
+"table on your own site, without having an account on your WordPress "
+"installation."
+msgstr ""
+"You can create Forms that Visitors or People can edit the content of your "
+"table on your own site, without having an account on your WordPress "
+"installation."
+
+#: ../custom-tables.php:962 ../pages/setup_form.php:148
+#, php-format
+msgid ""
+"The Standardform can be added with %s to the page and includes all rights "
+"(read, write, delete, create) to edit all Tables."
+msgstr ""
+"The Standardform can be added with %s to the page and includes all rights "
+"(read, write, delete, create) to edit all Tables."
+
+#: ../custom-tables.php:963 ../pages/setup_form.php:149
+msgid ""
+"You can use the filter as SQL Filter that not all Entries are shown. The "
+"html Tag can be used to enable (1) the HTML Editor or disable it (0)."
+msgstr ""
+"You can use the filter as SQL Filter that not all Entries are shown. The "
+"html Tag can be used to enable (1) the HTML Editor or disable it (0)."
+
+#: ../custom-tables.php:963
+msgid ""
+"To create individual forms with individual rights, you need to have a valid "
+"serial number for the premium feature."
+msgstr ""
+"To create individual forms with individual rights, you need to have a valid "
+"serial number for the premium feature."
+
+#: ../custom-tables.php:965
+msgid "The license has expired, please renew it"
+msgstr "The license has expired, please renew it"
+
+#: ../custom-tables.php:965 ../custom-tables.php:968
+#: ../pages/editcontent.php:456 ../pages/setup_settings.php:288
+msgid "now"
+msgstr "now"
+
+#: ../custom-tables.php:968 ../pages/editcontent.php:456
+msgid "No valid premium feature license found, please enter serial "
+msgstr "No valid premium feature license found, please enter serial "
+
+#: ../custom-tables.php:1102
+msgid "Please find below the new Features / Bugfixes"
+msgstr "Please find below the new Features / Bugfixes"
+
+#: ../custom-tables.php:1165
+msgid "Plugin is already installed"
+msgstr "Plugin is already installed"
+
+#: ../custom-tables.php:1171
+#, php-format
+msgid "Plugin %s not installed."
+msgstr "Plugin %s not installed."
+
+#: ../custom-tables.php:1173 ../custom-tables.php:1176
+msgid "Install now"
+msgstr "Install now"
+
+#: ../pages/405.php:4
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: ../pages/backup.php:10 ../pages/backuprestore.php:10
+#: ../pages/importexport.php:7
+msgid ""
+"Filesize is higher than your PHP installation allows, please contact your "
+"Hostingpartner"
+msgstr ""
+"Filesize is higher than your PHP installation allows, please contact your "
+"Hostingpartner"
+
+#: ../pages/backup.php:11 ../pages/backuprestore.php:11
+#: ../pages/importexport.php:8
+msgid "Fileupload was interupted and only a part of the file was uploaded"
+msgstr "Fileupload was interupted and only a part of the file was uploaded"
+
+#: ../pages/backup.php:12 ../pages/backuprestore.php:12
+#: ../pages/importexport.php:9
+msgid "No file was uploaded?!?"
+msgstr "No file was uploaded?!?"
+
+#: ../pages/backup.php:21 ../pages/backuprestore.php:33
+msgid "Backup File has been imported."
+msgstr "Backup File has been imported."
+
+#: ../pages/backup.php:24 ../pages/backuprestore.php:36
+msgid "Backup File need to be from Custom Tables Plugin!"
+msgstr "Backup File need to be from Custom Tables Plugin!"
+
+#: ../pages/backup.php:29 ../pages/backuprestore.php:68
+msgid "Please upload only valid Custom Tables Backup Files!"
+msgstr "Please upload only valid Custom Tables Backup Files!"
+
+#: ../pages/backup.php:38 ../pages/backuprestore.php:77
+msgid "Backup"
+msgstr "Backup"
+
+#: ../pages/backup.php:39 ../pages/backuprestore.php:78
+msgid "Take Backup of Settings and all Tables"
+msgstr "Take Backup of Settings and all Tables"
+
+#: ../pages/backup.php:40 ../pages/backuprestore.php:79
+msgid "Restore"
+msgstr "Restore"
+
+#: ../pages/backup.php:42 ../pages/backuprestore.php:81
+msgid "Please select Backup File to upload and restore"
+msgstr "Please select Backup File to upload and restore"
+
+#: ../pages/backup.php:43 ../pages/backuprestore.php:82
+#: ../pages/importexport.php:87
+msgid "Upload File"
+msgstr "Upload File"
+
+#: ../pages/backuprestore.php:87
+msgid ""
+"Here you can make a backup of all settings and tables within this plugin!"
+msgstr ""
+"Here you can make a backup of all settings and tables within this plugin!"
+
+#: ../pages/backuprestore.php:87
+msgid ""
+"A restore will not delete existing tables which are not included in the "
+"backup. The restore will restore the Tables which was there by the backup "
+"and all content (it deletes existing tables with the same ID and override "
+"the content). Please make a backup befor overriding important data!"
+msgstr ""
+"A restore will not delete existing tables which are not included in the "
+"backup. The restore will restore the Tables which was there by the backup "
+"and all content (it deletes existing tables with the same ID and override "
+"the content). Please make a backup befor overriding important data!"
+
+#: ../pages/backuprestore.php:88
+msgid ""
+"SQL Files which containing one CREATE Table statement and then INSERT "
+"statements can be imported here, but without support by any problems. If you "
+"need to import a table within this plugin and have problems, you can buy 15 "
+"Minutes support and I will create you a wct file to import."
+msgstr ""
+"SQL Files which containing one CREATE Table statement and then INSERT "
+"statements can be imported here, but without support by any problems. If you "
+"need to import a table within this plugin and have problems, you can buy 15 "
+"Minutes support and I will create you a wct file to import."
+
+#: ../pages/backuprestore.php:89
+msgid ""
+"If you also want do have a Table within the Plugin including complete setup "
+"and Design finished, please get in support contact with me. The files "
+"provided then can also be uploaded here."
+msgstr ""
+"If you also want do have a Table within the Plugin including complete setup "
+"and Design finished, please get in support contact with me. The files "
+"provided then can also be uploaded here."
+
+#: ../pages/backuprestore.php:98 ../pages/backuprestore.php:99
+#: ../pages/importexport.php:84
+msgid "Import"
+msgstr "Import"
+
+#: ../pages/backuprestore.php:98
+msgid "File"
+msgstr "File"
+
+#: ../pages/backuprestore.php:99 ../pages/setup_archive.php:23
+#: ../pages/setup_table.php:534 ../pages/setup_view.php:256
+#: ../pages/setup_view.php:261
+msgid "Instructions"
+msgstr "Instructions"
+
+#: ../pages/backuprestore.php:100
+msgid ""
+"To import a CSV, make sure that you do not touch the first line in the "
+"exported CSV. Each modification will be wiped out in the import process. You "
+"cannot create new fields or rename them trotught the CSV file!"
+msgstr ""
+"To import a CSV, make sure that you do not touch the first line in the "
+"exported CSV. Each modification will be wiped out in the import process. You "
+"cannot create new fields or rename them trotught the CSV file!"
+
+#: ../pages/backuprestore.php:101
+msgid ""
+"The file to import need to be saved as a CSV (Delimiter splitted) File "
+"(fields splitted with ; and optional enquoted &quot; fields). Excel is "
+"supporting this save possibility in all known versions."
+msgstr ""
+"The file to import need to be saved as a CSV (Delimiter splitted) File "
+"(fields splitted with ; and optional enquoted &quot; fields). Excel is "
+"supporting this save possibility in all known versions."
+
+#: ../pages/cronjob.php:32
+msgid "Please use only valid SQL Statements"
+msgstr "Please use only valid SQL Statements"
+
+#: ../pages/cronjob.php:56 ../pages/cronjob.php:92
+#: ../pages/editcontent.php:521 ../pages/manage_designoutout.php:20
+msgid "Do you really want to do this?"
+msgstr "Do you really want to do this?"
+
+#: ../pages/cronjob.php:59
+msgid "Edit Cronjob"
+msgstr "Edit Cronjob"
+
+#: ../pages/cronjob.php:69
+msgid "Schedule"
+msgstr "Schedule"
+
+#: ../pages/cronjob.php:70
+msgid "hourly"
+msgstr "hourly"
+
+#: ../pages/cronjob.php:71
+msgid "twice a day"
+msgstr "twice a day"
+
+#: ../pages/cronjob.php:72
+msgid "daily"
+msgstr "daily"
+
+#: ../pages/cronjob.php:74
+msgid "Command"
+msgstr "Command"
+
+#: ../pages/cronjob.php:75
+msgid "Status"
+msgstr "Status"
+
+#: ../pages/cronjob.php:75
+msgid "Active"
+msgstr "Active"
+
+#: ../pages/cronjob.php:75 ../pages/cronjob.php:102
+msgid "Passive"
+msgstr "Passive"
+
+#: ../pages/cronjob.php:77 ../pages/cronjob.php:104
+msgid "Error"
+msgstr "Error"
+
+#: ../pages/cronjob.php:79 ../pages/editcontent.php:209
+#: ../pages/editcontent.php:324 ../pages/editcontent.php:698
+#: ../pages/editcontent.php:707 ../pages/setup_archive.php:21
+#: ../pages/setup_css.php:26 ../pages/setup_css.php:33
+#: ../pages/setup_fields.php:46 ../pages/setup_form.php:78
+#: ../pages/setup_form.php:127 ../pages/setup_form.php:139
+#: ../pages/setup_settings.php:137 ../pages/setup_settings.php:164
+#: ../pages/setup_settings.php:167 ../pages/setup_settings.php:196
+#: ../pages/setup_settings.php:214 ../pages/setup_table.php:96
+#: ../pages/setup_table.php:176 ../pages/setup_table.php:201
+#: ../pages/setup_table.php:212 ../pages/setup_table.php:327
+#: ../pages/setup_table.php:524 ../pages/setup_view.php:107
+#: ../pages/setup_view.php:159 ../pages/setup_view.php:221
+#: ../pages/setup_view.php:240 ../pages/show_form.php:214
+#: ../pages/show_form.php:439
+msgid "Save all Changes"
+msgstr "Save all Changes"
+
+#: ../pages/cronjob.php:82
+#, php-format
+msgid ""
+"Example: %s This code would set all Entries passive where the field date is "
+"older than the yesterday!"
+msgstr ""
+"Example: %s This code would set all Entries passive where the field date is "
+"older than the yesterday!"
+
+#: ../pages/cronjob.php:85
+msgid "Command which would run:"
+msgstr "Command which would run:"
+
+#: ../pages/cronjob.php:104
+msgid "Good"
+msgstr "Good"
+
+#: ../pages/cronjob.php:105 ../pages/editcontent.php:689
+#: ../pages/show_table.php:483 ../pages/show_table.php:489
+#: ../pages/show_table.php:645
+msgid "Edit"
+msgstr "Edit"
+
+#: ../pages/cronjob.php:106 ../pages/editcontent.php:690
+#: ../pages/manage_designoutout.php:29 ../pages/setup_table.php:59
+#: ../pages/setup_table.php:62 ../pages/setup_table.php:481
+msgid "Del"
+msgstr "Del"
+
+#: ../pages/cronjob.php:110 ../pages/editcontent.php:594
+#: ../pages/editcontent.php:711 ../pages/manage_designoutout.php:33
+#: ../pages/show_form.php:295
+msgid "New Entry"
+msgstr "New Entry"
+
+#: ../pages/editcontent.php:63
+msgid "Changes has been saved"
+msgstr "Changes has been saved"
+
+#: ../pages/editcontent.php:124
+msgid "Entry has been saved"
+msgstr "Entry has been saved"
+
+#: ../pages/editcontent.php:150
+msgid "Search & Replace has been done"
+msgstr "Search & Replace has been done"
+
+#: ../pages/editcontent.php:187 ../pages/editcontent.php:447
+#: ../pages/editcontent.php:473 ../pages/editcontent.php:507
+msgid "Edit Content"
+msgstr "Edit Content"
+
+#: ../pages/editcontent.php:197
+msgid "Resort Table Entries"
+msgstr "Resort Table Entries"
+
+#: ../pages/editcontent.php:202
+msgid "Sort table on field"
+msgstr "Sort table on field"
+
+#: ../pages/editcontent.php:208 ../pages/setup_view.php:155
+msgid "ascending"
+msgstr "ascending"
+
+#: ../pages/editcontent.php:208 ../pages/setup_view.php:157
+msgid "descending"
+msgstr "descending"
+
+#: ../pages/editcontent.php:213 ../pages/show_form.php:347
+msgid "Edit Entry"
+msgstr "Edit Entry"
+
+#: ../pages/editcontent.php:244
+msgid "Upload Image"
+msgstr "Upload Image"
+
+#: ../pages/editcontent.php:295 ../pages/editcontent.php:406
+msgid "No Entries found in related table"
+msgstr "No Entries found in related table"
+
+#: ../pages/editcontent.php:298 ../pages/editcontent.php:409
+msgid "Relation not definied yet"
+msgstr "Relation not definied yet"
+
+#: ../pages/editcontent.php:311 ../pages/editcontent.php:422
+#: ../pages/show_form.php:424
+msgid "undefinied field type"
+msgstr "undefinied field type"
+
+#: ../pages/editcontent.php:324 ../pages/editcontent.php:435
+msgid "Save & back"
+msgstr "Save & back"
+
+#: ../pages/editcontent.php:324
+msgid "Save & next"
+msgstr "Save & next"
+
+#: ../pages/editcontent.php:331 ../pages/show_form.php:127
+msgid "Create Entry"
+msgstr "Create Entry"
+
+#: ../pages/editcontent.php:435 ../pages/manage_designoutout.php:34
+msgid "Save Entry"
+msgstr "Save Entry"
+
+#: ../pages/editcontent.php:435
+msgid "Save & create new"
+msgstr "Save & create new"
+
+#: ../pages/editcontent.php:454 ../pages/editcontent.php:461
+msgid "Search & Replace"
+msgstr "Search & Replace"
+
+#: ../pages/editcontent.php:459
+msgid "Search for"
+msgstr "Search for"
+
+#: ../pages/editcontent.php:460
+msgid "Replace with"
+msgstr "Replace with"
+
+#: ../pages/editcontent.php:461 ../pages/editcontent.php:489
+msgid "<b>Attention:</b> This action is irreversible!"
+msgstr "<b>Attention:</b> This action is irreversible!"
+
+#: ../pages/editcontent.php:480
+msgid "SQL Statement"
+msgstr "SQL Statement"
+
+#: ../pages/editcontent.php:489
+msgid "Send SQL Statement"
+msgstr "Send SQL Statement"
+
+#: ../pages/editcontent.php:596 ../pages/show_form.php:238
+#: ../pages/show_form.php:261
+msgid "Entries"
+msgstr "Entries"
+
+#: ../pages/editcontent.php:596
+msgid "Show/Hide Filters"
+msgstr "Show/Hide Filters"
+
+#: ../pages/editcontent.php:596
+msgid "Show All Fields"
+msgstr "Show All Fields"
+
+#: ../pages/editcontent.php:599
+msgid "Search / Filters"
+msgstr "Search / Filters"
+
+#: ../pages/editcontent.php:600
+msgid "Search in Table"
+msgstr "Search in Table"
+
+#: ../pages/editcontent.php:600
+msgid "Apply"
+msgstr "Apply"
+
+#: ../pages/editcontent.php:601
+msgid "Show Fields"
+msgstr "Show Fields"
+
+#: ../pages/editcontent.php:694
+#, php-format
+msgid ""
+"No entries found! Please %sreset the filter%s if you think you might missing "
+"entries."
+msgstr ""
+"No entries found! Please %sreset the filter%s if you think you might missing "
+"entries."
+
+#: ../pages/importexport.php:55 ../pages/importexport.php:68
+#, php-format
+msgid "%s File has been imported sucessfully."
+msgstr "%s File has been imported sucessfully."
+
+#: ../pages/importexport.php:56
+#, php-format
+msgid "%s File could not imported."
+msgstr "%s File could not imported."
+
+#: ../pages/importexport.php:61 ../pages/importexport.php:71
+#, php-format
+msgid "Please upload only valid %s Files!"
+msgstr "Please upload only valid %s Files!"
+
+#: ../pages/importexport.php:80
+msgid "Export"
+msgstr "Export"
+
+#: ../pages/importexport.php:80
+msgid "Klick on a Icon to export table"
+msgstr "Klick on a Icon to export table"
+
+#: ../pages/importexport.php:86
+msgid "Please select CSV or XML File to upload and import"
+msgstr "Please select CSV or XML File to upload and import"
+
+#: ../pages/importexport.php:87
+msgid "Separator"
+msgstr "Separator"
+
+#: ../pages/importexport.php:87
+msgid "Comma"
+msgstr "Comma"
+
+#: ../pages/importexport.php:87
+msgid "Semicolon"
+msgstr "Semicolon"
+
+#: ../pages/manage_designoutout.php:14
+msgid "Please give the new Design a name"
+msgstr "Please give the new Design a name"
+
+#: ../pages/manage_designoutout.php:23 ../pages/setup_view.php:80
+#: ../pages/setup_view.php:92
+msgid "Outputdesigns"
+msgstr "Outputdesigns"
+
+#: ../pages/manage_designoutout.php:34 ../pages/setup_fields.php:32
+#: ../pages/setup_fields.php:83
+msgid "Name"
+msgstr "Name"
+
+#: ../pages/save_tables.php:108
+msgid "Please give it some time..."
+msgstr "Please give it some time..."
+
+#: ../pages/setup_archive.php:3 ../pages/setup_table.php:334
+msgid "Edit Table"
+msgstr "Edit Table"
+
+#: ../pages/setup_archive.php:14 ../pages/setup_table.php:505
+#: ../pages/setup_view.php:174
+msgid "Show Headerline"
+msgstr "Show Headerline"
+
+#: ../pages/setup_archive.php:16 ../pages/setup_table.php:507
+#: ../pages/setup_view.php:231
+msgid "Overlay Function"
+msgstr "Overlay Function"
+
+#: ../pages/setup_archive.php:18 ../pages/setup_table.php:522
+msgid "Black"
+msgstr "Black"
+
+#: ../pages/setup_archive.php:20 ../pages/setup_table.php:524
+msgid "White"
+msgstr "White"
+
+#: ../pages/setup_archive.php:20 ../pages/setup_table.php:524
+msgid "color for activated sort buttons"
+msgstr "color for activated sort buttons"
+
+#: ../pages/setup_archive.php:23
+msgid ""
+"The article archive DB cannot be modified, because the data will be get from "
+"the article db itself in realtime when needed, cached if possible.<br/>You "
+"can only adjust the style and output of the table here."
+msgstr ""
+"The article archive DB cannot be modified, because the data will be get from "
+"the article db itself in realtime when needed, cached if possible.<br/>You "
+"can only adjust the style and output of the table here."
+
+#: ../pages/setup_archive.php:25 ../pages/setup_table.php:558
+#: ../pages/setup_view.php:163
+#, php-format
+msgid "This Table can be added with %s or %s to the page."
+msgstr "This Table can be added with %s or %s to the page."
+
+#: ../pages/setup_archive.php:26
+#, php-format
+msgid "The Datelist for the archive can be added with %s to the page."
+msgstr "The Datelist for the archive can be added with %s to the page."
+
+#: ../pages/setup_css.php:23
+msgid "Edit Widget CSS"
+msgstr "Edit Widget CSS"
+
+#: ../pages/setup_css.php:25 ../pages/setup_css.php:32
+msgid "Possible WCT Styles"
+msgstr "Possible WCT Styles"
+
+#: ../pages/setup_css.php:30
+msgid "Edit Table CSS"
+msgstr "Edit Table CSS"
+
+#: ../pages/setup_css.php:34
+#, php-format
+msgid ""
+"If you have defined a SALT by the table like %s, the CSS Stylesheet will "
+"change the CSS from %s to %s"
+msgstr ""
+"If you have defined a SALT by the table like %s, the CSS Stylesheet will "
+"change the CSS from %s to %s"
+
+#: ../pages/setup_fields.php:30
+msgid "Create new DB Field definition"
+msgstr "Create new DB Field definition"
+
+#: ../pages/setup_fields.php:33 ../pages/setup_fields.php:83
+msgid "Definition"
+msgstr "Definition"
+
+#: ../pages/setup_fields.php:56
+msgid "No Name or only special characters delivered"
+msgstr "No Name or only special characters delivered"
+
+#: ../pages/setup_fields.php:57
+msgid "No field definition delivered"
+msgstr "No field definition delivered"
+
+#: ../pages/setup_fields.php:58
+msgid "Unknown definition delivered"
+msgstr "Unknown definition delivered"
+
+#: ../pages/setup_fields.php:59
+msgid "Missing sub-definitions"
+msgstr "Missing sub-definitions"
+
+#: ../pages/setup_fields.php:68 ../pages/setup_fields.php:75
+#: ../pages/setup_settings.php:83
+msgid "Changes successfully saved"
+msgstr "Changes successfully saved"
+
+#: ../pages/setup_fields.php:86
+msgid "DEL"
+msgstr "DEL"
+
+#: ../pages/setup_fields.php:88
+msgid "Add new"
+msgstr "Add new"
+
+#: ../pages/setup_form.php:28
+msgid "Rights Setup"
+msgstr "Rights Setup"
+
+#: ../pages/setup_form.php:28 ../pages/setup_form.php:149
+msgid "Form Name"
+msgstr "Form Name"
+
+#: ../pages/setup_form.php:58 ../pages/setup_form.php:61
+#: ../pages/setup_table.php:208 ../pages/setup_table.php:499
+#: ../pages/tag_gen.php:610 ../pages/tag_gen.php:664
+msgid "Fields"
+msgstr "Fields"
+
+#: ../pages/setup_form.php:65 ../pages/setup_form.php:103
+#: ../pages/setup_settings.php:128
+msgid "Rights"
+msgstr "Rights"
+
+#: ../pages/setup_form.php:65
+msgid "Read (Can see the content of the table)"
+msgstr "Read (Can see the content of the table)"
+
+#: ../pages/setup_form.php:66
+msgid "Write (Can change content of the table)"
+msgstr "Write (Can change content of the table)"
+
+#: ../pages/setup_form.php:67
+msgid "Create (Can add new content of the table)"
+msgstr "Create (Can add new content of the table)"
+
+#: ../pages/setup_form.php:68
+msgid "Delete (Can delete content of the table)"
+msgstr "Delete (Can delete content of the table)"
+
+#: ../pages/setup_form.php:72 ../pages/tag_gen.php:479
+msgid "HTML Editor"
+msgstr "HTML Editor"
+
+#: ../pages/setup_form.php:74
+msgid "Enabled for Textfields"
+msgstr "Enabled for Textfields"
+
+#: ../pages/setup_form.php:74
+msgid "Approval Needed"
+msgstr "Approval Needed"
+
+#: ../pages/setup_form.php:76
+msgid "You will become an email on a change to approve"
+msgstr "You will become an email on a change to approve"
+
+#: ../pages/setup_form.php:77
+msgid "Filter"
+msgstr "Filter"
+
+#: ../pages/setup_form.php:87 ../pages/setup_table.php:295
+msgid "Please accept Checkbox that all data\\nwill be deleted from this table!"
+msgstr ""
+"Please accept Checkbox that all data\\nwill be deleted from this table!"
+
+#: ../pages/setup_form.php:92
+msgid "Delete Form"
+msgstr "Delete Form"
+
+#: ../pages/setup_form.php:94 ../pages/setup_table.php:302
+msgid "Yes, delete this table with the complete content."
+msgstr "Yes, delete this table with the complete content."
+
+#: ../pages/setup_form.php:95 ../pages/setup_table.php:303
+msgid "Delete Table including all content"
+msgstr "Delete Table including all content"
+
+#: ../pages/setup_form.php:96
+msgid ""
+"Please select the table which should be accessed from people to modify data "
+"in it and which rights should be granted. Please notice that some rights do "
+"need read rights also!<br/><br/>Please select also all Fields which should "
+"have these rights set.<br>Example with Read/Write rights:<br/>Only fields "
+"which are selected are writeable! All fields could be read if the field is "
+"set in Table or Entry Setup."
+msgstr ""
+"Please select the table which should be accessed from people to modify data "
+"in it and which rights should be granted. Please notice that some rights do "
+"need read rights also!<br/><br/>Please select also all Fields which should "
+"have these rights set.<br>Example with Read/Write rights:<br/>Only fields "
+"which are selected are writeable! All fields could be read if the field is "
+"set in Table or Entry Setup."
+
+#: ../pages/setup_form.php:97
+#, php-format
+msgid ""
+"You can add the Customized Form with following Code %s to your Article or "
+"Page."
+msgstr ""
+"You can add the Customized Form with following Code %s to your Article or "
+"Page."
+
+#: ../pages/setup_form.php:98
+#, php-format
+msgid ""
+"If you want that a user can directly create multiple entries use following "
+"shortcode %s to add multiple forms within Entry Setup."
+msgstr ""
+"If you want that a user can directly create multiple entries use following "
+"shortcode %s to add multiple forms within Entry Setup."
+
+#: ../pages/setup_form.php:103 ../pages/setup_table.php:14
+#: ../pages/setup_view.php:111 ../pages/show_table.php:603
+msgid "Table Setup"
+msgstr "Table Setup"
+
+#: ../pages/setup_form.php:103 ../pages/tag_gen.php:337
+#: ../pages/tag_gen.php:417
+msgid "Field"
+msgstr "Field"
+
+#: ../pages/setup_form.php:103
+msgid "Show"
+msgstr "Show"
+
+#: ../pages/setup_form.php:129
+msgid ""
+"Fields which have no-rights on it, can be read by the User if you want, but "
+"not changed or saved (depending on the 'Rights Setup')"
+msgstr ""
+"Fields which have no-rights on it, can be read by the User if you want, but "
+"not changed or saved (depending on the 'Rights Setup')"
+
+#: ../pages/setup_form.php:136 ../pages/setup_view.php:102
+#: ../pages/show_table.php:655
+msgid "Entry Setup"
+msgstr "Entry Setup"
+
+#: ../pages/setup_form.php:146 ../pages/setup_table.php:352
+msgid "Please fillout all fields or delete them if not needed!"
+msgstr "Please fillout all fields or delete them if not needed!"
+
+#: ../pages/setup_form.php:149
+msgid "Other forms with other rights and setup can be created here"
+msgstr "Other forms with other rights and setup can be created here"
+
+#: ../pages/setup_form.php:149
+msgid "Create new Form"
+msgstr "Create new Form"
+
+#: ../pages/setup_settings.php:128
+msgid ""
+"Setup who can access which pages of the plugin.<br/>You can only break down "
+"on groups, not on users!"
+msgstr ""
+"Setup who can access which pages of the plugin.<br/>You can only break down "
+"on groups, not on users!"
+
+#: ../pages/setup_settings.php:128
+msgid "Global rights"
+msgstr "Global rights"
+
+#: ../pages/setup_settings.php:129
+msgid "Show WCT Tab"
+msgstr "Show WCT Tab"
+
+#: ../pages/setup_settings.php:132
+msgid "Archive Setup"
+msgstr "Anzeige anpassen"
+
+#: ../pages/setup_settings.php:133
+msgid "Cronjobs"
+msgstr "Cronjobs"
+
+#: ../pages/setup_settings.php:134
+msgid "Custom Forms"
+msgstr "Custom Forms"
+
+#: ../pages/setup_settings.php:137
+msgid "Table rights"
+msgstr "Table rights"
+
+#: ../pages/setup_settings.php:152 ../pages/setup_settings.php:160
+msgid "Setup Option"
+msgstr "Setup Option"
+
+#: ../pages/setup_settings.php:153 ../pages/setup_settings.php:161
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: ../pages/setup_settings.php:154 ../pages/setup_settings.php:162
+msgid "Content"
+msgstr "Content"
+
+#: ../pages/setup_settings.php:158
+msgid "Reset all tables to following Standard"
+msgstr "Reset all tables to following Standard"
+
+#: ../pages/setup_settings.php:165
+msgid "Cache"
+msgstr "Cache"
+
+#: ../pages/setup_settings.php:166
+msgid "Cache expire"
+msgstr "Cache expire"
+
+#: ../pages/setup_settings.php:166
+msgid "How long is the Cache valid in secounds"
+msgstr "How long is the Cache valid in secounds"
+
+#: ../pages/setup_settings.php:167
+msgid ""
+"<b>Attention:</b> Cache functionality will only work, if the Caching "
+"functionality in WordPress is enabled and a cache plugin is installed."
+msgstr ""
+"<b>Attention:</b> Cache functionality will only work, if the Caching "
+"functionality in WordPress is enabled and a cache plugin is installed."
+
+#: ../pages/setup_settings.php:169
+msgid "Advanced Features"
+msgstr "Advanced Features"
+
+#: ../pages/setup_settings.php:170
+msgid "Table Indexes"
+msgstr "Table Indexes"
+
+#: ../pages/setup_settings.php:172
+msgid ""
+"If you want to enable Table Indexes to define which fields can be searched "
+"faster."
+msgstr ""
+"If you want to enable Table Indexes to define which fields can be searched "
+"faster."
+
+#: ../pages/setup_settings.php:173
+msgid ""
+"<b>Attention:</b> This feature should only be used by Database Engineers "
+"which knowing what they are doing. In fact, correct indexes can speedup the "
+"database by user searches, but on wrong indexes destroy database performance "
+"at all."
+msgstr ""
+"<b>Attention:</b> This feature should only be used by Database Engineers "
+"which knowing what they are doing. In fact, correct indexes can speedup the "
+"database by user searches, but on wrong indexes destroy database performance "
+"at all."
+
+#: ../pages/setup_settings.php:175
+msgid "Hide Edit Button in Frontend"
+msgstr "Hide Edit Button in Frontend"
+
+#: ../pages/setup_settings.php:177
+msgid ""
+"Hide the Edit Button also from Loggedin Users (Normal Users don't see it at "
+"all)"
+msgstr ""
+"Hide the Edit Button also from Loggedin Users (Normal Users don't see it at "
+"all)"
+
+#: ../pages/setup_settings.php:179
+msgid "Hide Page nubmers below Table"
+msgstr "Hide Page nubmers below Table"
+
+#: ../pages/setup_settings.php:183
+msgid "Nice Set Fields"
+msgstr "Nice Set Fields"
+
+#: ../pages/setup_settings.php:185
+msgid ""
+"Set fields are Comma separated. Betewwn Entries there is no Space like A,B. "
+"With this Option activated, the Entry get Spaces between like A, B."
+msgstr ""
+"Set fields are Comma separated. Betewwn Entries there is no Space like A,B. "
+"With this Option activated, the Entry get Spaces between like A, B."
+
+#: ../pages/setup_settings.php:186
+msgid ""
+"<b>Attention:</b> This feature can have performance impact on large tables."
+msgstr ""
+"<b>Attention:</b> This feature can have performance impact on large tables."
+
+#: ../pages/setup_settings.php:188
+msgid "Disable HTML Filter"
+msgstr "Disable HTML Filter"
+
+#: ../pages/setup_settings.php:190
+msgid ""
+"WordPress filters the HTML befor it saves. This filter removes &lt;p&gt; and "
+"&lt;br&gt; Tags. If you don' like it, disable it here."
+msgstr ""
+"WordPress filters the HTML befor it saves. This filter removes &lt;p&gt; and "
+"&lt;br&gt; Tags. If you don' like it, disable it here."
+
+#: ../pages/setup_settings.php:193
+msgid "Show SQL Statements Fields"
+msgstr "Show SQL Statements Fields"
+
+#: ../pages/setup_settings.php:195
+msgid ""
+"This Checkbox will make SQL Statement and SQL Filter Fields visible. Errors "
+"in this fields are not checked!"
+msgstr ""
+"This Checkbox will make SQL Statement and SQL Filter Fields visible. Errors "
+"in this fields are not checked!"
+
+#: ../pages/setup_settings.php:207
+msgid "DB Charset for Search"
+msgstr "DB Charset for Search"
+
+#: ../pages/setup_settings.php:208
+msgid "DB Charset"
+msgstr "DB Charset"
+
+#: ../pages/setup_settings.php:210
+msgid "Auto"
+msgstr "Auto"
+
+#: ../pages/setup_settings.php:212
+msgid "Custom"
+msgstr "Custom"
+
+#: ../pages/setup_settings.php:213
+msgid ""
+"If you submit special characters from other kind of charsets, the search "
+"will return nothing. You can manually set here the correct Charset from your "
+"table if it doesn't work!"
+msgstr ""
+"If you submit special characters from other kind of charsets, the search "
+"will return nothing. You can manually set here the correct Charset from your "
+"table if it doesn't work!"
+
+#: ../pages/setup_settings.php:245
+msgid "<br/>Thanks for supporting web updates kmu. Please reload page."
+msgstr "<br/>Thanks for supporting web updates kmu. Please reload page."
+
+#: ../pages/setup_settings.php:248 ../pages/setup_settings.php:252
+#, php-format
+msgid "Serial not accepted: '%s'"
+msgstr "Serial not accepted: '%s'"
+
+#: ../pages/setup_settings.php:256 ../pages/setup_settings.php:262
+msgid "Serial"
+msgstr "Serial"
+
+#: ../pages/setup_settings.php:256 ../pages/setup_settings.php:262
+msgid "Validate"
+msgstr "Validate"
+
+#: ../pages/setup_settings.php:257 ../pages/setup_settings.php:263
+msgid "Validation need to have online connection to web updates kmu server!"
+msgstr "Validation need to have online connection to web updates kmu server!"
+
+#: ../pages/setup_settings.php:258
+msgid ""
+"Please check the serial number, the submitted serial number has a wrong "
+"format"
+msgstr ""
+"Please check the serial number, the submitted serial number has a wrong "
+"format"
+
+#: ../pages/setup_settings.php:270
+#, php-format
+msgid ""
+"Premium feature will remain for 25 years and all new WCT Premium feature "
+"will be automatically licenced with this serial!<br/>The licence costs are "
+"%s &euro; *"
+msgstr ""
+"Premium feature will remain for 25 years and all new WCT Premium feature "
+"will be automatically licenced with this serial!<br/>The licence costs are "
+"%s &euro; *"
+
+#: ../pages/setup_settings.php:278
+#, php-format
+msgid "Premium features licensed. Expire soon %s."
+msgstr "Premium features licensed. Expire soon %s."
+
+#: ../pages/setup_settings.php:279
+msgid "If you want to delete the license before it's expired"
+msgstr "If you want to delete the license before it's expired"
+
+#: ../pages/setup_settings.php:279
+msgid "click here"
+msgstr "click here"
+
+#: ../pages/setup_settings.php:288
+msgid "The license has expired, please delete and renew it"
+msgstr "The license has expired, please delete and renew it"
+
+#: ../pages/setup_settings.php:290
+msgid "Features which are included"
+msgstr "Features which are included"
+
+#: ../pages/setup_settings.php:292
+msgid ""
+"Custom Forms: Define which fields can be written / updated of which tables)"
+msgstr ""
+"Custom Forms: Define which fields can be written / updated of which tables)"
+
+#: ../pages/setup_settings.php:293
+msgid "Multiple Output Designs possible"
+msgstr "Multiple Output Designs possible"
+
+#: ../pages/setup_settings.php:294
+msgid "Category Widget (of Enum & Set fields)"
+msgstr "Category Widget (of Enum & Set fields)"
+
+#: ../pages/setup_settings.php:295
+msgid "Search & Replace in Table"
+msgstr "Search & Replace in Table"
+
+#: ../pages/setup_settings.php:296
+msgid ""
+"Extends Standard WordPress Search looks into Tables and show Article and "
+"Page if search string was found"
+msgstr ""
+"Extends Standard WordPress Search looks into Tables and show Article and "
+"Page if search string was found"
+
+#: ../pages/setup_settings.php:297
+msgid "SQL Cronjobs"
+msgstr "SQL Cronjobs"
+
+#: ../pages/setup_settings.php:298
+msgid "Multiselection fields possible (needs jQuery)"
+msgstr "Multiselection fields possible (needs jQuery)"
+
+#: ../pages/setup_settings.php:299
+msgid "Show Table/Form only if a user is logged in (Option)"
+msgstr "Show Table/Form only if a user is logged in (Option)"
+
+#: ../pages/setup_settings.php:300
+msgid ""
+"Table download is possible on public page as Excel and CSV file (Option)"
+msgstr ""
+"Table download is possible on public page as Excel and CSV file (Option)"
+
+#: ../pages/setup_settings.php:301
+msgid "Unknown CSV Importer has no limits"
+msgstr "Unknown CSV Importer has no limits"
+
+#: ../pages/setup_settings.php:302
+msgid "n2n Relations between Tables possible"
+msgstr "n2n Relations between Tables possible"
+
+#: ../pages/setup_settings.php:303
+msgid "Multiple database rows in 1 line possible"
+msgstr "Multiple database rows in 1 line possible"
+
+#: ../pages/setup_settings.php:306
+msgid ""
+"Please note, the key price can increase in the future, the valid price is in "
+"the latest plugin version committed. Prices in older Pluginversions are not "
+"valid and don't garantee the same price."
+msgstr ""
+"Please note, the key price can increase in the future, the valid price is in "
+"the latest plugin version committed. Prices in older Pluginversions are not "
+"valid and don't garantee the same price."
+
+#: ../pages/setup_settings.php:306
+msgid "Premium Feature License is valid for 1 Domain only!"
+msgstr "Premium Feature License is valid for 1 Domain only!"
+
+#: ../pages/setup_settings.php:309 ../pages/setup_settings.php:318
+msgid "Other usefull plugins"
+msgstr "Other usefull plugins"
+
+#: ../pages/setup_settings.php:309
+msgid "in combination"
+msgstr "in combination"
+
+#: ../pages/setup_settings.php:309
+msgid ""
+"Please note that the following Plugins are NOT developed from web updates "
+"kmu and therefor no support can be granted."
+msgstr ""
+"Please note that the following Plugins are NOT developed from web updates "
+"kmu and therefor no support can be granted."
+
+#: ../pages/setup_table.php:82
+msgid "Clone Table"
+msgstr "Clone Table"
+
+#: ../pages/setup_table.php:84
+msgid "Please select existing Table to clone"
+msgstr "Please select existing Table to clone"
+
+#: ../pages/setup_table.php:87
+msgid "Select Table to clone"
+msgstr "Select Table to clone"
+
+#: ../pages/setup_table.php:94
+msgid "Select what to clone"
+msgstr "Select what to clone"
+
+#: ../pages/setup_table.php:94
+msgid "Table only"
+msgstr "Table only"
+
+#: ../pages/setup_table.php:94
+msgid "Table &amp; data"
+msgstr "Table &amp; data"
+
+#: ../pages/setup_table.php:100
+msgid "Relations"
+msgstr "Relations"
+
+#: ../pages/setup_table.php:102
+msgid "Attention"
+msgstr "Attention"
+
+#: ../pages/setup_table.php:102
+msgid ""
+"Wrong usage of this feature cannot only distroy your page, it can overload "
+"or slowdown your database until complete breakdown of the hosting server! "
+"Don't make loops in relationships! 1 relation to another database is secure."
+msgstr ""
+"Wrong usage of this feature cannot only distroy your page, it can overload "
+"or slowdown your database until complete breakdown of the hosting server! "
+"Don't make loops in relationships! 1 relation to another database is secure."
+
+#: ../pages/setup_table.php:173
+#, php-format
+msgid ""
+"Relation from Table %s.%s to %s.id and show following field %s on edit "
+"content tab."
+msgstr ""
+"Relation from Table %s.%s to %s.id and show following field %s on edit "
+"content tab."
+
+#: ../pages/setup_table.php:194
+msgid "Indexes Setup"
+msgstr "Indexes Setup"
+
+#: ../pages/setup_table.php:194 ../pages/setup_view.php:174
+msgid "Field Name"
+msgstr "Field Name"
+
+#: ../pages/setup_table.php:194
+msgid "Set Index"
+msgstr "Set Index"
+
+#: ../pages/setup_table.php:200
+msgid ""
+"Please adjust the Search accordently to your Indexes, by a Search over all "
+"fields, the Indexes makes no sense!"
+msgstr ""
+"Please adjust the Search accordently to your Indexes, by a Search over all "
+"fields, the Indexes makes no sense!"
+
+#: ../pages/setup_table.php:202
+#, php-format
+msgid ""
+"The optimized searchform for the indexes can be add with %s or %s to the "
+"page."
+msgstr ""
+"The optimized searchform for the indexes can be add with %s or %s to the "
+"page."
+
+#: ../pages/setup_table.php:206
+msgid "Sort Fields"
+msgstr "Sort Fields"
+
+#: ../pages/setup_table.php:207 ../pages/setup_table.php:498
+msgid "Table Name"
+msgstr "Table Name"
+
+#: ../pages/setup_table.php:249
+msgid "Please select a Field to rename"
+msgstr "Please select a Field to rename"
+
+#: ../pages/setup_table.php:253 ../pages/setup_table.php:257
+msgid "Please give the field a new name"
+msgstr "Please give the field a new name"
+
+#: ../pages/setup_table.php:278
+msgid "Change Field"
+msgstr "Change Field"
+
+#: ../pages/setup_table.php:280
+msgid "Field to rename"
+msgstr "Field to rename"
+
+#: ../pages/setup_table.php:281
+msgid "New Fieldname"
+msgstr "New Fieldname"
+
+#: ../pages/setup_table.php:282
+msgid "New definition"
+msgstr "New definition"
+
+#: ../pages/setup_table.php:284
+msgid "Sort all Entries alphabetically"
+msgstr "Sort all Entries alphabetically"
+
+#: ../pages/setup_table.php:285
+msgid "Rename Field"
+msgstr "Rename Field"
+
+#: ../pages/setup_table.php:300
+msgid "Delete Table"
+msgstr "Delete Table"
+
+#: ../pages/setup_table.php:317
+msgid "Search Setup"
+msgstr "Search Setup"
+
+#: ../pages/setup_table.php:317
+msgid ""
+"This search AddOn can be used to search within multiple date fields.<br/>As "
+"example you have 2 fields as `start_day`=10/03/2011 and `end_day`=10/05/2011."
+"<br/>If a user searches for one of the tags: 10/03/2011 or 10/05/2011 it "
+"will match, but not for 10/04/2011, because the database doesn't know which "
+"field is what.<br/>In this page you can create your own Search query which "
+"enables to search also beteween given dates in the database."
+msgstr ""
+"This search AddOn can be used to search within multiple date fields.<br/>As "
+"example you have 2 fields as `start_day`=10/03/2011 and `end_day`=10/05/2011."
+"<br/>If a user searches for one of the tags: 10/03/2011 or 10/05/2011 it "
+"will match, but not for 10/04/2011, because the database doesn't know which "
+"field is what.<br/>In this page you can create your own Search query which "
+"enables to search also beteween given dates in the database."
+
+#: ../pages/setup_table.php:319
+msgid ""
+"Your setup doesn't have at least 2 date fields, feature therefor not "
+"avaialble."
+msgstr ""
+"Your setup doesn't have at least 2 date fields, feature therefor not "
+"avaialble."
+
+#: ../pages/setup_table.php:323
+msgid "Search Query"
+msgstr "Search Query"
+
+#: ../pages/setup_table.php:324
+msgid "Availalble fields"
+msgstr "Availalble fields"
+
+#: ../pages/setup_table.php:327 ../pages/tag_gen.php:506
+#: ../pages/tag_gen.php:511 ../pages/tag_gen.php:524 ../pages/tag_gen.php:574
+msgid "Example"
+msgstr "Example"
+
+#: ../pages/setup_table.php:328
+msgid ""
+"Please enter the Tag SEARCH whereever the Search String of the Visitor "
+"should be entered."
+msgstr ""
+"Please enter the Tag SEARCH whereever the Search String of the Visitor "
+"should be entered."
+
+#: ../pages/setup_table.php:341
+msgid ""
+"Attention, with that action, all data in this field will be erased in the "
+"database.\\nDo you want to proceed?"
+msgstr ""
+"Attention, with that action, all data in this field will be erased in the "
+"database.\\nDo you want to proceed?"
+
+#: ../pages/setup_table.php:502
+msgid "Add new Field"
+msgstr "Add new Field"
+
+#: ../pages/setup_table.php:509 ../pages/setup_view.php:131
+msgid "Enable Table download as"
+msgstr "Enable Table download as"
+
+#: ../pages/setup_table.php:515
+msgid "Enable global edit on Edit Content Tab"
+msgstr "Enable global edit on Edit Content Tab"
+
+#: ../pages/setup_table.php:516
+msgid "Link to Formpage"
+msgstr "Link to Formpage"
+
+#: ../pages/setup_table.php:517
+msgid "Show as new Menu point"
+msgstr "Show as new Menu point"
+
+#: ../pages/setup_table.php:535
+msgid "Please use only Alphanumberic Characters for all Fieldnames."
+msgstr "Please use only Alphanumberic Characters for all Fieldnames."
+
+#: ../pages/setup_table.php:536
+msgid "The field `id` cannot be deleted and is needed in the database."
+msgstr "The field `id` cannot be deleted and is needed in the database."
+
+#: ../pages/setup_table.php:537
+msgid "Fields can have following definitions:"
+msgstr "Fields can have following definitions:"
+
+#: ../pages/setup_table.php:539 ../pages/setup_table.php:541
+#: ../pages/setup_table.php:543
+#, php-format
+msgid "This Field can save Text with a length of %s Characters"
+msgstr "This Field can save Text with a length of %s Characters"
+
+#: ../pages/setup_table.php:545 ../pages/setup_table.php:547
+#: ../pages/setup_table.php:549
+#, php-format
+msgid "This Field can save Numbers from %s to %s"
+msgstr "This Field can save Numbers from %s to %s"
+
+#: ../pages/setup_table.php:550
+msgid ""
+"This Field can save text or numbers for selections, mainly used for "
+"Categories and Search Indexes"
+msgstr ""
+"This Field can save text or numbers for selections, mainly used for "
+"Categories and Filter."
+
+#: ../pages/setup_table.php:551
+msgid ""
+"This Field can save text or numbers for multi selections, mainly used for "
+"Categories and Search Indexes"
+msgstr ""
+"This Field can save text or numbers for multi selections, mainly used for "
+"Categories and Search Indexes"
+
+#: ../pages/setup_table.php:553
+msgid ""
+"You cannot change the definition of a field, if the field has already been "
+"saved. Please delete the field and create a new one with the correct "
+"definition.<br/><br/>You can activate the Overlay Function, which will "
+"enable a preview of the page, when the user get with the mousecurser over an "
+"Entry."
+msgstr ""
+"You cannot change the definition of a field, if the field has already been "
+"saved. Please delete the field and create a new one with the correct "
+"definition.<br/><br/>You can activate the Overlay Function, which will "
+"enable a preview of the page, when the user get with the mousecurser over an "
+"Entry."
+
+#: ../pages/setup_table.php:559
+#, php-format
+msgid ""
+"The Tag %s sets a CSS Filter to define more than one Stylesheet Definition. "
+"More Details in Edit CSS Section. The Tag %s sets that no Selection or "
+"Search Filter apply to that table. Very usefull if you place more than one "
+"table on the page or article."
+msgstr ""
+"The Tag %s sets a CSS Filter to define more than one Stylesheet Definition. "
+"More Details in Edit CSS Section. The Tag %s sets that no Selection or "
+"Search Filter apply to that table. Very usefull if you place more than one "
+"table on the page or article."
+
+#: ../pages/setup_table.php:560 ../pages/setup_view.php:164
+#, php-format
+msgid "This Searchform for this table with %s or %s to the page."
+msgstr "This Searchform for this table with %s or %s to the page."
+
+#: ../pages/setup_view.php:49
+msgid "View Setup"
+msgstr "View Setup"
+
+#: ../pages/setup_view.php:69 ../pages/setup_view.php:91
+msgid "Select Outputdesign for Setup"
+msgstr "Select Outputdesign for Setup"
+
+#: ../pages/setup_view.php:71 ../pages/setup_view.php:91
+msgid "Default"
+msgstr "Default"
+
+#: ../pages/setup_view.php:80 ../pages/setup_view.php:92
+msgid "Manage"
+msgstr "Manage"
+
+#: ../pages/setup_view.php:106
+msgid ""
+"All users which will be redirected from Table Setup over the [LINK] will "
+"come to this view. You can create here your Page which will be autogenerated."
+"<br/><br/>The <b>blue Fields</b> stays for the availalble fields in the "
+"database which you can use. You dont need to use all fields, but its "
+"recommented. Fields which are not used in this view, have proberly no usage!"
+msgstr ""
+"All users which will be redirected from Table Setup over the [LINK] will "
+"come to this view. You can create here your Page which will be autogenerated."
+"<br/><br/>The <b>blue Fields</b> stays for the availalble fields in the "
+"database which you can use. You dont need to use all fields, but its "
+"recommented. Fields which are not used in this view, have proberly no usage!"
+
+#: ../pages/setup_view.php:106 ../pages/setup_view.php:118
+#: ../pages/setup_view.php:235 ../pages/setup_view.php:255
+msgid "More Hints"
+msgstr "More Hints"
+
+#: ../pages/setup_view.php:118
+msgid ""
+"The <b>Red TABLE</b> field need to be used for the Table definition for each "
+"line which will show the list to filter and search on the mainpage.<br/><br/"
+">The <b>Red LINK</b> field will redirect the user on the Entry Page with can "
+"be setupd on the own configuration.<br/>If you dont link it manually, the "
+"link will be placed under the complete table line automatically.<br/><br/"
+">The <b>blue Fields</b> stays for the availalble fields in the database. You "
+"dont need to use all fields.<br/><br/>The <b>Custom Headline</b> can be left "
+"blank if you wish, otherwise please define Name for all Cols with Comma "
+"separated.<br/><br/>The <b>Search Form</b> will search on default ot all "
+"fields, which can generate a high load on the Database. You can restrict the "
+"search to specific fields (Comma separated). Wrong written fields or not "
+"existing one will be iognored.<br/><b>*</b> Will search for all fields, "
+"possible high load on the database<br/><b>sss</b> This option will use the "
+"Search Tag from the choosed language."
+msgstr ""
+"The <b>Red TABLE</b> field need to be used for the Table definition for each "
+"line which will show the list to filter and search on the mainpage.<br/><br/"
+">The <b>Red LINK</b> field will redirect the user on the Entry Page with can "
+"be setupd on the own configuration.<br/>If you dont link it manually, the "
+"link will be placed under the complete table line automatically.<br/><br/"
+">The <b>blue Fields</b> stays for the availalble fields in the database. You "
+"dont need to use all fields.<br/><br/>The <b>Custom Headline</b> can be left "
+"blank if you wish, otherwise please define Name for all Cols with Comma "
+"separated.<br/><br/>The <b>Search Form</b> will search on default ot all "
+"fields, which can generate a high load on the Database. You can restrict the "
+"search to specific fields (Comma separated). Wrong written fields or not "
+"existing one will be iognored.<br/><b>*</b> Will search for all fields, "
+"possible high load on the database<br/><b>sss</b> This option will use the "
+"Search Tag from the choosed language."
+
+#: ../pages/setup_view.php:137
+msgid "Show Tabledefinition mutliple times in a row"
+msgstr "Show Tabledefinition mutliple times in a row"
+
+#: ../pages/setup_view.php:138 ../pages/tag_gen.php:152
+#: ../pages/tag_gen.php:153 ../pages/tag_gen.php:262 ../pages/tag_gen.php:421
+msgid "No"
+msgstr "No"
+
+#: ../pages/setup_view.php:140
+msgid "times"
+msgstr "times"
+
+#: ../pages/setup_view.php:145
+msgid "Table main sort"
+msgstr "Table main sort"
+
+#: ../pages/setup_view.php:165 ../pages/setup_view.php:222
+#, php-format
+msgid ""
+"Dropdown Menus for filtering on Categories can be add with %s or %s to the "
+"page."
+msgstr ""
+"Dropdown Menus for filtering on Categories can be add with %s or %s to the "
+"page."
+
+#: ../pages/setup_view.php:166
+#, php-format
+msgid "The Clear all Filters button can be added with %s to the page."
+msgstr "The Clear all Filters button can be added with %s to the page."
+
+#: ../pages/setup_view.php:172
+msgid "Headerline Setup"
+msgstr "Headerline Setup"
+
+#: ../pages/setup_view.php:174
+msgid "Your Content"
+msgstr "Your Content"
+
+#: ../pages/setup_view.php:174
+msgid "Sort field"
+msgstr "Sort field"
+
+#: ../pages/setup_view.php:205
+msgid "none"
+msgstr "none"
+
+#: ../pages/setup_view.php:218
+msgid "Headerline"
+msgstr "Headerline"
+
+#: ../pages/setup_view.php:218 ../pages/setup_view.php:238
+msgid ""
+"not activated for this table, this setup will have no effect! Please use "
+"'Table Setup' to activate it."
+msgstr ""
+"not activated for this table, this setup will have no effect! Please use "
+"'Table Setup' to activate it."
+
+#: ../pages/setup_view.php:225
+msgid ""
+"<b>Attention:</b> This Option should only be activated on Categories (Bar, "
+"Restaurant) or Selectionsfields (City, Country) and not FreeText fields with "
+"many diffrent Entries, or Performance and Usability are very bad! Don't "
+"select if you don't know what you are doing."
+msgstr ""
+"<b>Attention:</b> This Option should only be activated on Categories (Bar, "
+"Restaurant) or Selectionsfields (City, Country) and not FreeText fields with "
+"many diffrent Entries, or Performance and Usability are very bad! Don't "
+"select if you don't know what you are doing."
+
+#: ../pages/setup_view.php:229
+msgid "Overlay Setup"
+msgstr "Overlay Setup"
+
+#: ../pages/setup_view.php:235
+msgid ""
+"This View will be shown, if a user get with the mousecurser over an entry of "
+"the Table. With a click, the user gets redirected to the Entry Page."
+msgstr ""
+"This View will be shown, if a user get with the mousecurser over an entry of "
+"the Table. With a click, the user gets redirected to the Entry Page."
+
+#: ../pages/setup_view.php:238
+msgid "Overlay"
+msgstr "Overlay"
+
+#: ../pages/setup_view.php:244
+msgid "Setup Hints"
+msgstr "Setup Hints"
+
+#: ../pages/setup_view.php:245
+msgid ""
+"You can customize the all Views with HTML to everything you want. There are "
+"no limitations, except your own HTML knowledge. Down here are 2 simple "
+"Examples.<br/><br/><b>To add a picture</b><LU><li>Create e.g. a field with "
+"the name 'img' as varchar(64)</li><li>Create e.g. a field with the name "
+"'imgtitle' as varchar(32)</li><li>Upload the images for all entrys to the "
+"Mediathek</li><li>Copy of each image from the Mediathek the Link e.g. http://"
+"yourdomain.com/wp-uploads/image-lkd.jpg</li><li>Past this URL to the "
+"corresponging 'img' field</li><li>Define 'imgtitle' field of all entries</"
+"li><li>Use code at the setup page:"
+msgstr ""
+"You can customize the all Views with HTML to everything you want. There are "
+"no limitations, except your own HTML knowledge. Down here are 2 simple "
+"Examples.<br/><br/><b>To add a picture</b><LU><li>Create e.g. a field with "
+"the name 'img' as varchar(64)</li><li>Create e.g. a field with the name "
+"'imgtitle' as varchar(32)</li><li>Upload the images for all entrys to the "
+"Mediathek</li><li>Copy of each image from the Mediathek the Link e.g. http://"
+"yourdomain.com/wp-uploads/image-lkd.jpg</li><li>Past this URL to the "
+"corresponging 'img' field</li><li>Define 'imgtitle' field of all entries</"
+"li><li>Use code at the setup page:"
+
+#: ../pages/setup_view.php:247
+msgid ""
+"Please notice, if you call a field 'link' it will replace the internal page "
+"creation functionality and if you click on the table line, it will redirect "
+"the user on the new link.!"
+msgstr ""
+"Please notice, if you call a field 'link' it will replace the internal page "
+"creation functionality and if you click on the table line, it will redirect "
+"the user on the new link!"
+
+#: ../pages/setup_view.php:247
+msgid ""
+"<b>To add a custom link</b><LU><li>Create a DB field e.g. 'link' as varchar"
+"(64)<br/><font color=\"red\">"
+msgstr ""
+"<b>To add a custom link</b><LU><li>Create a DB field e.g. 'links' as varchar"
+"(64)<br/><font color=\"red\">"
+
+#: ../pages/setup_view.php:248
+msgid "Sample what is possible"
+msgstr "Sample what is possible with pictures"
+
+#: ../pages/setup_view.php:253
+msgid ""
+"You can define here which fields are shown and how. Also the Overlay can be "
+"defined and the Entry pages."
+msgstr ""
+"You can define here which fields are shown and how. Also the Overlay can be "
+"defined and the Entry pages."
+
+#: ../pages/setup_view.php:254
+msgid ""
+"Please check the submenu for more information and detailed instructions."
+msgstr ""
+"Please check the submenu for more information and detailed instructions."
+
+#: ../pages/setup_view.php:255
+msgid "For more details as example how to add HTML code, please have a look on"
+msgstr ""
+"For more details as example how to add HTML code, please have a look on"
+
+#: ../pages/show_form.php:17
+msgid "Entry was deleted"
+msgstr "Entry was deleted"
+
+#: ../pages/show_form.php:71
+msgid "Entry was created"
+msgstr "Entry was created"
+
+#: ../pages/show_form.php:83
+msgid "Entry was updated"
+msgstr "Entry was updated"
+
+#: ../pages/show_form.php:98 ../pages/show_form.php:101
+msgid "Thanks for the new entry."
+msgstr "Thanks for the new entry."
+
+#: ../pages/show_form.php:98
+msgid "It will be checked and if everything is ok approved."
+msgstr "It will be checked and if everything is ok approved."
+
+#: ../pages/show_form.php:129
+msgid "Please fillout captcha corretly!"
+msgstr "Please fillout captcha corretly!"
+
+#: ../pages/show_form.php:229
+msgid "Do you really want to delete this record?"
+msgstr "Do you really want to delete this record?"
+
+#: ../pages/show_form.php:238
+msgid "draft"
+msgstr "draft"
+
+#: ../pages/show_form.php:253 ../pages/show_form.php:282
+#: ../pages/show_table.php:537
+msgid "Page"
+msgstr "PAge"
+
+#: ../pages/show_form.php:261
+msgid "Draft Entries need an approval from an Admin to get published."
+msgstr "Draft Entries need an approval from an Admin to get published."
+
+#: ../pages/show_form.php:261
+msgid "active"
+msgstr "active"
+
+#: ../pages/show_form.php:292 ../pages/show_table.php:526
+msgid "No entries found"
+msgstr "No entries found"
+
+#: ../pages/show_form.php:299
+msgid "Form Setup"
+msgstr "Form Setup"
+
+#: ../pages/show_form.php:299 ../pages/show_table.php:603
+#: ../pages/show_table.php:655
+msgid "not configured"
+msgstr "not configured"
+
+#: ../pages/show_form.php:317
+msgid "ERROR: No entry defined yet and no filter given for autocreate."
+msgstr "ERROR: No entry defined yet and no filter given for autocreate."
+
+#: ../pages/show_form.php:379
+msgid "Browse"
+msgstr "Browse"
+
+#: ../pages/show_multiselect_js.php:8
+msgid "Check all"
+msgstr "Check all"
+
+#: ../pages/show_multiselect_js.php:9
+msgid "Uncheck all"
+msgstr "Uncheck all"
+
+#: ../pages/show_search.php:10 ../pages/tag_gen.php:602
+msgid "Search"
+msgstr "Search"
+
+#: ../pages/show_search.php:20
+msgid "Exact search"
+msgstr "Exact search"
+
+#: ../pages/show_select.php:84
+msgid "Empty"
+msgstr "Empty"
+
+#: ../pages/show_table.php:567 ../pages/show_table.php:582
+msgid "Download"
+msgstr "Download"
+
+#: ../pages/show_table.php:641
+msgid "back"
+msgstr "back"
+
+#: ../pages/show_table.php:650
+msgid "Entry not found"
+msgstr "Entry not found"
+
+#: ../pages/tag_gen.php:17
+msgid "Show Table on Article or Page"
+msgstr "Show Table on Article or Page"
+
+#: ../pages/tag_gen.php:18
+msgid "Show Dropdown from a field"
+msgstr "Show Dropdown from a field"
+
+#: ../pages/tag_gen.php:19
+msgid "Show Searchfield"
+msgstr "Show Searchfield"
+
+#: ../pages/tag_gen.php:20
+msgid "Add the Clear button by the Search"
+msgstr "Add the Clear button by the Search"
+
+#: ../pages/tag_gen.php:21
+msgid "Show only one Entry of a Table on Article or Page"
+msgstr "Show only one Entry of a Table on Article or Page"
+
+#: ../pages/tag_gen.php:22
+msgid "IF Statement"
+msgstr "IF Statement"
+
+#: ../pages/tag_gen.php:23
+msgid "Show Overlay when mouseover in table"
+msgstr "Show Overlay when mouseover in table"
+
+#: ../pages/tag_gen.php:24
+msgid "Add PHP Code on Page or Article"
+msgstr "Add PHP Code on Page or Article"
+
+#: ../pages/tag_gen.php:25
+msgid "Show a date from a timestamp"
+msgstr "Show a date from a timestamp"
+
+#: ../pages/tag_gen.php:26
+msgid "Show the Edit Form for all Tables (all Rights)"
+msgstr "Show the Edit Form for all Tables (all Rights)"
+
+#: ../pages/tag_gen.php:29
+msgid ""
+"Add manually the Editbutton in table setup view (only visible for Admins)"
+msgstr ""
+"Add manually the Editbutton in table setup view (only visible for Admins)"
+
+#: ../pages/tag_gen.php:33
+msgid "Show Multiselect Dropdown from a field"
+msgstr "Show Multiselect Dropdown from a field"
+
+#: ../pages/tag_gen.php:34
+msgid "Show generated Form"
+msgstr "Show generated Form"
+
+#: ../pages/tag_gen.php:35
+msgid "Show content only if user is logged in"
+msgstr "Show content only if user is logged in"
+
+#: ../pages/tag_gen.php:38
+msgid "Show Archive on a Page or Article"
+msgstr "Show Archive on a Page or Article"
+
+#: ../pages/tag_gen.php:39
+msgid "Show all dates which have Articles"
+msgstr "Show all dates which have Articles"
+
+#: ../pages/tag_gen.php:42
+msgid "There are some special filters which can be applied on SQL field"
+msgstr "There are some special filters which can be applied on SQL field"
+
+#: ../pages/tag_gen.php:43
+msgid "actual time as timestamp like"
+msgstr "actual time as timestamp like"
+
+#: ../pages/tag_gen.php:44
+msgid "actual time minus one day as timestamp like"
+msgstr "actual time minus one day as timestamp like"
+
+#: ../pages/tag_gen.php:45
+msgid "actual time plus one day as timestamp like"
+msgstr "actual time plus one day as timestamp like"
+
+#: ../pages/tag_gen.php:46
+msgid "Username of logged in user like"
+msgstr "Username of logged in user like"
+
+#: ../pages/tag_gen.php:53
+msgid "For what do you want to generate a Smarttag?"
+msgstr "For what do you want to generate a Smarttag?"
+
+#: ../pages/tag_gen.php:139 ../pages/tag_gen.php:250 ../pages/tag_gen.php:303
+#: ../pages/tag_gen.php:383
+msgid "Select Table to display"
+msgstr "Select Table to display"
+
+#: ../pages/tag_gen.php:144 ../pages/tag_gen.php:540
+msgid "How many Records should be shown"
+msgstr "How many Records should be shown"
+
+#: ../pages/tag_gen.php:146 ../pages/tag_gen.php:257
+msgid "Design to select (ID or Name)"
+msgstr "Design to select (ID or Name)"
+
+#: ../pages/tag_gen.php:151
+msgid "How many Pagenumbers should be shown"
+msgstr "How many Pagenumbers should be shown"
+
+#: ../pages/tag_gen.php:152
+msgid "Show Table only if someone searched something"
+msgstr "Show Table only if someone searched something"
+
+#: ../pages/tag_gen.php:152 ../pages/tag_gen.php:153 ../pages/tag_gen.php:262
+#: ../pages/tag_gen.php:421
+msgid "Yes"
+msgstr "Yes"
+
+#: ../pages/tag_gen.php:153 ../pages/tag_gen.php:262
+msgid "Do not apply filters"
+msgstr "Do not apply filters"
+
+#: ../pages/tag_gen.php:156 ../pages/tag_gen.php:265 ../pages/tag_gen.php:344
+#: ../pages/tag_gen.php:426 ../pages/tag_gen.php:481 ../pages/tag_gen.php:545
+#: ../pages/tag_gen.php:656 ../pages/tag_gen.php:688
+msgid "Generate"
+msgstr "Generate"
+
+#: ../pages/tag_gen.php:157 ../pages/tag_gen.php:266 ../pages/tag_gen.php:345
+#: ../pages/tag_gen.php:427 ../pages/tag_gen.php:468 ../pages/tag_gen.php:483
+#: ../pages/tag_gen.php:505 ../pages/tag_gen.php:510 ../pages/tag_gen.php:515
+#: ../pages/tag_gen.php:519 ../pages/tag_gen.php:523 ../pages/tag_gen.php:529
+#: ../pages/tag_gen.php:546 ../pages/tag_gen.php:573 ../pages/tag_gen.php:657
+#: ../pages/tag_gen.php:689
+msgid "Shortcode to copy and add where ever you want"
+msgstr "Shortcode to copy and add where ever you want"
+
+#: ../pages/tag_gen.php:255
+msgid "ID of the Entry which should be shown"
+msgstr "ID of the Entry which should be shown"
+
+#: ../pages/tag_gen.php:338 ../pages/tag_gen.php:418
+msgid "How many entries should be shown"
+msgstr "How many entries should be shown"
+
+#: ../pages/tag_gen.php:339 ../pages/tag_gen.php:420
+msgid "Title Text"
+msgstr "Title Text"
+
+#: ../pages/tag_gen.php:341 ../pages/tag_gen.php:423
+msgid "Sort by"
+msgstr "Sort by"
+
+#: ../pages/tag_gen.php:341 ../pages/tag_gen.php:423
+msgid "Amount of Entries"
+msgstr "Amount of Entries"
+
+#: ../pages/tag_gen.php:341 ../pages/tag_gen.php:423
+msgid "Alphabetical"
+msgstr "Alphabetical"
+
+#: ../pages/tag_gen.php:342 ../pages/tag_gen.php:424
+msgid "Show Amount of Entries"
+msgstr "Show Amount of Entries"
+
+#: ../pages/tag_gen.php:377 ../pages/tag_gen.php:463
+msgid ""
+"Dropdown fields will normally reset all other dropdown fields. Now you can "
+"make groups via SALT. Dropdown fields within the same Salt group will reset "
+"each others. 2 dropdown fields in other Salt groups will not reseat each "
+"other and additionaly both Filters will applied."
+msgstr ""
+"Dropdown fields will normally reset all other dropdown fields. Now you can "
+"make groups via SALT. Dropdown fields within the same Salt group will reset "
+"each others. 2 dropdown fields in other Salt groups will not reseat each "
+"other and additionaly both Filters will applied."
+
+#: ../pages/tag_gen.php:419
+msgid "The fixed width of the selection field"
+msgstr "The fixed width of the selection field"
+
+#: ../pages/tag_gen.php:421
+msgid "Show Header line"
+msgstr "Show Header line"
+
+#: ../pages/tag_gen.php:474 ../pages/tag_gen.php:535
+msgid "Select Table to edit"
+msgstr "Select Table to edit"
+
+#: ../pages/tag_gen.php:474
+msgid "All tables"
+msgstr "All tables"
+
+#: ../pages/tag_gen.php:479
+msgid "Deactivated"
+msgstr "Deactivated"
+
+#: ../pages/tag_gen.php:479
+msgid "Activated"
+msgstr "Activated"
+
+#: ../pages/tag_gen.php:525
+msgid ""
+"If you have problems with the language of the date/time, please consider to "
+"set the correct langauge as follow (not all Hostings supporting this)"
+msgstr ""
+"If you have problems with the language of the date/time, please consider to "
+"set the correct langauge as follow (not all Hostings supporting this)"
+
+#: ../pages/tag_gen.php:543
+msgid "Edit direct first Entry"
+msgstr "Edit direct first Entry"
+
+#: ../pages/tag_gen.php:569
+msgid ""
+"To filter after a Username which is logged in to WordPress, you can use "
+"USERNAME within the SQL field, like:"
+msgstr ""
+"To filter after a Username which is logged in to WordPress, you can use "
+"USERNAME within the SQL field, like:"
+
+#: ../pages/tag_gen.php:601
+msgid ""
+"The search will work over all tables and all fields. Of corse, you can "
+"define which fields can be searched over all tables."
+msgstr ""
+"The search will work over all tables and all fields. Of corse, you can "
+"define which fields can be searched over all tables."
+
+#: ../pages/tag_gen.php:603
+msgid "Search Text"
+msgstr "Search Text"
+
+#: ../pages/tag_gen.php:603
+msgid "Language sensitive text"
+msgstr "Language sensitive text"
+
+#: ../pages/tag_gen.php:604
+msgid "All Tables and all Fields"
+msgstr "All Tables and all Fields"
+
+#: ../pages/tag_gen.php:604 ../pages/tag_gen.php:608
+msgid "Individual Tables and fields"
+msgstr "Individual Tables and fields"
+
+#: ../pages/tag_gen.php:605
+msgid "Exact Search"
+msgstr "Exact Search"
+
+#: ../pages/tag_gen.php:662
+msgid "Select Field"
+msgstr "Select Field"
+
+#: ../pages/tag_gen.php:678
+msgid "Operator"
+msgstr "Operator"
+
+#: ../pages/tag_gen.php:679
+msgid "Not Equal"
+msgstr "Not Equal"
+
+#: ../pages/tag_gen.php:680
+msgid "Equal"
+msgstr "Equal"
+
+#: ../pages/tag_gen.php:681
+msgid "Bigger or Equal"
+msgstr "Bigger or Equal"
+
+#: ../pages/tag_gen.php:682
+msgid "Smaller or Equal"
+msgstr "Smaller or Equal"
+
+#: ../pages/tag_gen.php:683
+msgid "Bigger"
+msgstr "Bigger"
+
+#: ../pages/tag_gen.php:684
+msgid "Smaller "
+msgstr "Smaller "
+
+#: ../pages/tag_gen.php:685
+msgid "Reference"
+msgstr "Reference"
+
+#: ../pages/wuk.php:4
+msgid "The WordPress Specialists"
+msgstr "The WordPress Specialists"
+
+#: ../pages/wuk.php:7
+msgid "Edit Plugin"
+msgstr "Edit Plugin"
+
+#: ../pages/wuk.php:23
+#, php-format
+msgid ""
+"Thanks for using this plugin! You've installed this plugin over a month ago. "
+"If it works and you are satisfied with the results, isn't it worth at least "
+"a few dollar? <a href=\"%s\">Donations</a> help me to continue free support "
+"and development of this plugin! <a href=\"%s\">Sure, no problem!</a>"
+msgstr ""
+"Thanks for using this plugin! You've installed this plugin over a month ago. "
+"If it works and you are satisfied with the results, isn't it worth at least "
+"a few dollar? <a href=\"%s\">Donations</a> help me to continue free support "
+"and development of this plugin! <a href=\"%s\">Sure, no problem!</a>"
+
+#: ../pages/wuk.php:24
+msgid "Sure, but I already did!"
+msgstr "Sure, but I already did!"
+
+#: ../pages/wuk.php:24
+msgid "No thanks, please don't ask me anymore!"
+msgstr "No thanks, please don't ask me anymore!"
+
+#: ../pages/wuk.php:29
+msgid ""
+"Thank you very much for your donation. You help me to continue support and "
+"development of this plugin and other free software!"
+msgstr ""
+"Thank you very much for your donation. You help me to continue support and "
+"development of this plugin and other free software!"
+
+#: ../pages/wuk.php:30
+msgid "Hide this notice"
+msgstr "Hide this notice"
+
+#: ../pages/wuk.php:34
+msgid ""
+"This plugin is not comppatible with CKEditor. You can use both plugins, but "
+"are not able to use the Editor Features for easy handling the fields and "
+"setup."
+msgstr ""
+"This plugin is not comppatible with CKEditor. You can use both plugins, but "
+"are not able to use the Editor Features for easy handling the fields and "
+"setup."
+
+#: ../pages/wuk.php:35
+msgid "Sure, but don't remind me!"
+msgstr "Sure, but don't remind me!"
+
+#: ../pages/support.php:41
+msgid "Request submitted"
+msgstr "Request submitted"
+
+#: ../pages/support.php:41
+msgid "Request has been submitted sucessfully."
+msgstr "Request has been submitted sucessfully."
+
+#: ../pages/support.php:53
+#, php-format
+msgid ""
+"If you dont receive an response in the <b>next 2 workingdays</b>, please "
+"send me a mail to %s with the PayPal Transaction ID."
+msgstr ""
+"If you dont receive an response in the <b>next 2 workingdays</b>, please "
+"send me a mail to %s with the PayPal Transaction ID."
+
+#: ../pages/support/select.php:11 ../pages/support/select.php:16
+msgid "Support"
+msgstr "Support"
+
+#: ../pages/support/select.php:11
+msgid ""
+"Free support with no garanteed reaction time and only be accessible over "
+"ticketsystem."
+msgstr ""
+"Free support with no garanteed reaction time and only be accessible over "
+"ticketsystem."
+
+#: ../pages/support/select.php:12
+msgid "Bugreport"
+msgstr "Bugreport"
+
+#: ../pages/support/select.php:12
+msgid "We will fix it as soon as possible."
+msgstr "We will fix it as soon as possible."
+
+#: ../pages/support/select.php:13
+msgid "Feature Request"
+msgstr "Feature Request"
+
+#: ../pages/support/select.php:13
+msgid "New Idea? We would love it to hear!"
+msgstr "New Idea? We would love it to hear!"
+
+#: ../pages/support/select.php:16
+msgid "Chat support (immediately when I'm online)"
+msgstr "Chat support (immediately when I'm online)"
+
+#: ../pages/support/select.php:16 ../pages/support/select.php:17
+#: ../pages/support/select.php:18
+msgid "Costs"
+msgstr "Costs"
+
+#: ../pages/support/select.php:17
+msgid "Setup"
+msgstr "Setup"
+
+#: ../pages/support/select.php:17
+msgid "Professional Plugin configuration"
+msgstr "Professional Plugin configuration"
+
+#: ../pages/support/select.php:18
+msgid "Programming"
+msgstr "Programming"
+
+#: ../pages/support/select.php:18
+msgid "Additional features to implement"
+msgstr "Additional features to implement"
+
+#~ msgid "Save All"
+#~ msgstr "Save All"
+
+#~ msgid "Video Tutorials"
+#~ msgstr "Video Tutorials"
+
+#~ msgid ""
+#~ "Bugs and new Features can be requested on the WordPress.org Forum of the "
+#~ "Plugin: %s."
+#~ msgstr ""
+#~ "Bugs and new Features can be requested on the WordPress.org Forum of the "
+#~ "Plugin: %s."
+
+#~ msgid "Contact"
+#~ msgstr "Contact"
+
+#~ msgid "Donating"
+#~ msgstr "Donating"
+
+#~ msgid ""
+#~ "The Development of the Plugin was very time intensive and 4 month of hard "
+#~ "work was spend until version 1.0 was published. If you like this plugin, "
+#~ "please feel free to make a donation to support the developer."
+#~ msgstr ""
+#~ "The Development of the Plugin was very time intensive and 4 month of hard "
+#~ "work was spend until version 1.0 was published. If you like this plugin, "
+#~ "please feel free to make a donation to support the developer."
+
+#~ msgid "Starting"
+#~ msgstr "Starting"
+
+#~ msgid "Part"
+#~ msgstr "Part"
+
+#~ msgid "Basic"
+#~ msgstr "Basic"
+
+#~ msgid "Backup & Restore"
+#~ msgstr "Backup & Restore"
+
+#~ msgid "Enhanced"
+#~ msgstr "Enhanced"
+
+#~ msgid "Create & Edit Forms"
+#~ msgstr "Create & Edit Forms"
+
+#~ msgid "SALT on Dropdown fields"
+#~ msgstr "SALT on Dropdown fields"
+
+#~ msgid "Ultimate"
+#~ msgstr "Ultimate"
+
+#~ msgid "PHP Smarttag Possibilities"
+#~ msgstr "PHP Smarttag Possibilities"
+
+#~ msgid "USERNAME within SQL"
+#~ msgstr "USERNAME within SQL"
+
+#~ msgid "Serach"
+#~ msgstr "Serach"
+
+#~ msgid ""
+#~ "The Plugin was developed that you have no limits about the "
+#~ "implementation. The other side of that is, it can be sometimes difficult "
+#~ "to understand for a HTML Beginner.<br/>If you need help by the Setup or "
+#~ "Support in adding new functionalities by your own, so you can get payed "
+#~ "support.<br/>Engineer for 1 hour costs 80 &euro; / hour."
+#~ msgstr ""
+#~ "The Plugin was developed that you have no limits about the "
+#~ "implementation. The other side of that is, it can be sometimes difficult "
+#~ "to understand for a HTML Beginner.<br/>If you need help by the Setup or "
+#~ "Support in adding new functionalities by your own, so you can get payed "
+#~ "support.<br/>Engineer for 1 hour costs 80 &euro; / hour."
+
+#~ msgid "15 Mins Support for"
+#~ msgstr "15 Mins Support for"
+
+#~ msgid "Select and buy support option (if needed):"
+#~ msgstr "Select and buy support option (if needed):"
+
+#~ msgid "15 Mins - e.g. Make WCT Backupfile from SQL File"
+#~ msgstr "15 Mins - e.g. Make WCT Backupfile from SQL File"
+
+#~ msgid "1 Hour - e.g. Instruction how to use it"
+#~ msgstr "1 Hour - e.g. Instruction how to use it"
+
+#~ msgid "2 Hours - e.g. Setup of HTML Code for perfect output"
+#~ msgstr "2 Hours - e.g. Setup of HTML Code for perfect output"
+
+#~ msgid "3 Hours - e.g. Setup of Output and Import of custom Table/DB"
+#~ msgstr "3 Hours - e.g. Setup of Output and Import of custom Table/DB"
+
+#~ msgid ""
+#~ "4 Hours - e.g. Complete Setup of the plugin and all tables are created"
+#~ msgstr ""
+#~ "4 Hours - e.g. Complete Setup of the plugin and all tables are created"
+
+#~ msgid ""
+#~ "Bugfix should be submitted to the Support Forum on WordPress.org,"
+#~ "\\nplease see first topic on this page!\\n\\nPress OK to SEND the "
+#~ "Emergency Request, otherwise Cancel!"
+#~ msgstr ""
+#~ "Bugfix should be submitted to the Support Forum on WordPress.org,"
+#~ "\\nplease see first topic on this page!\\n\\nPress OK to SEND the "
+#~ "Emergency Request, otherwise Cancel!"
+
+#~ msgid "with mail"
+#~ msgstr "with mail"
+
+#~ msgid "Your Name"
+#~ msgstr "Your Name"
+
+#~ msgid "Your E-Mail"
+#~ msgstr "Your E-Mail"
+
+#~ msgid "Request Type"
+#~ msgstr "Request Type"
+
+#~ msgid "Bugfix Submit"
+#~ msgstr "Bugfix Submit"
+
+#~ msgid "Payed Request for Support"
+#~ msgstr "Payed Request for Support"
+
+#~ msgid "Unpayed Request for Support"
+#~ msgstr "Unpayed Request for Support"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Submit Request"
+#~ msgstr "Submit Request"
+
+#~ msgid "This Action will send informations to web updates kmu via mail"
+#~ msgstr "This Action will send informations to web updates kmu via mail"
+
+#~ msgid "Multilanguage Plugin which is fully supported of Custom Tables"
+#~ msgstr "Multilanguage Plugin which is fully supported of Custom Tables"
+
+#~ msgid ""
+#~ "Webshop Plugin to have full Webshop functionality within the Custom "
+#~ "Tables Plugin"
+#~ msgstr ""
+#~ "Webshop Plugin to have full Webshop functionality within the Custom "
+#~ "Tables Plugin"
+
+#~ msgid ""
+#~ "Please post all new topics with the standard Tags 'custom tables' and do "
+#~ "not modify it!"
+#~ msgstr ""
+#~ "Please post all new topics with the standard Tags 'custom tables' and do "
+#~ "not modify it!"
+
+#~ msgid "Support / Setup Help"
+#~ msgstr "Support / Setup Help"
+
+#~ msgid "Contact web updates kmu :"
+#~ msgstr "Contact web updates kmu :"
+
+#~ msgid "XML File has been imported sucessfully"
+#~ msgstr "XML File has been imported sucessfully"
+
+#~ msgid ""
+#~ "Attention, only the first 6 fields (or less) are visible in this list. "
+#~ "Please click on edit to see all fields of an entry."
+#~ msgstr ""
+#~ "Attention, only the first 6 fields (or less) are visible in this list. "
+#~ "Please click on edit to see all fields of an entry."
+
+#~ msgid "Rename field"
+#~ msgstr "Rename field"
+
+#~ msgid "Field name"
+#~ msgstr "Field name"
+
+#~ msgid "Custom Headline (Komma separated)"
+#~ msgstr "Custom Headline (Komma separated)"
+
+#~ msgid ""
+#~ "Please notice, its not a good idea to name the field 'link' because this "
+#~ "name is used for internal purposes!"
+#~ msgstr ""
+#~ "Please notice, its not a good idea to name the field 'link' because this "
+#~ "name is used for internal purposes!"
+
+#~ msgid "Configured Table not found"
+#~ msgstr "Configured Table not found"

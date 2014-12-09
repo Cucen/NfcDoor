@@ -1,0 +1,23 @@
+a,a:active{color:#507012;font-weight:700;outline:none}
+a:hover{color:#2F3E46}
+.fdx_topheading{background:#507012 url(../images/green/cat_heading.png) repeat-x center;border:1px solid #507012;border-radius:8px 8px 0 0;color:#FFF;font-size:15px;font-weight:700;height:35px;line-height:35px;list-style:none;position:relative;text-indent:11px;text-shadow:0 1px 0 #507012;vertical-align:middle}
+.fdx_postfooter{background:#507012 url(../images/green/cat_heading.png) repeat-x center;border:1px solid #507012;border-radius:0 0 8px 8px;color:#FFF;font-size:15px;font-weight:700;height:35px;line-height:35px;list-style:none;position:relative;text-shadow:0 1px 0 #507012;vertical-align:middle}
+.fdx_comments_title{background:#507012 url(../images/green/cat_heading.png) repeat-x center;border:1px solid #507012;border-radius:8px 8px 0 0;color:#FFF;font-size:15px;font-weight:700;height:35px;line-height:35px;list-style:none;position:relative;text-indent:11px;text-shadow:0 1px 0 #507012;vertical-align:middle;margin:0 5px}
+.fdx_comments_respond{background:#507012 url(../images/green/cat_heading.png) repeat-x center;border:1px solid #507012;border-radius:4px 4px 0 0;color:#FFF;font-size:15px;font-weight:700;height:35px;line-height:35px;list-style:none;position:relative;text-indent:11px;text-shadow:0 1px 0 #507012;vertical-align:middle;margin:0}
+.fdx_postfooter a,.fdx_topheading a{color:#FFF;text-decoration:none;text-shadow:0 1px 0 #507012}
+
+/* -------------------------------------- */
+.fdx_even{background:#fff;border-bottom:1px solid #d4d3d2;padding-left:7px}
+.fdx_odd{background:#f4f8ee;border-bottom:1px solid #d4d3d2;padding-left:7px}
+.fdx_comments .odd{background:#f4f8ee;border-bottom:1px solid #ccc}
+.fdx_article_heading{background:#f4f8ee;border-bottom:1px solid #ccc;color:#2F3E46;display:block;font-size:16px;font-weight:700;line-height:18px;vertical-align:bottom;padding:5px 10px 10px}
+.fdx_comments .odd li ul li{background:#f4f8ee}
+
+/* -------------------------------------- */
+span.tags{width:auto;position:relative;cursor:pointer;float:left;margin:5px 5px 0 0;padding:0;}
+span.tags a{background:#8CA757;border:1px solid #8CA757; color:#fff;border-radius:10px;font-size:11px;font-weight:400;text-decoration:none;padding:0 4px 1px 4px}
+span.tags a {text-decoration: none;}
+
+
+
+

@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-9" />
+<meta http-equiv="Content-Type" content="text/html; charset=x-mac-turkish" /> 
+<title>NFC Door Lock System</title>
+<link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.0/css/themes/default/jquery.mobile-1.4.0.min.css">
+<script src="http://demos.jquerymobile.com/1.4.0/js/jquery.js"></script>
+<script src="http://demos.jquerymobile.com/1.4.0/js/jquery.mobile-1.4.0.min.js"></script>
+<script>
+$( document ).ready(function() {
+
+$('#girissayfa').click(function(){
+if(( document.getElementById('txtUser').value=="muzeyyen" && document.getElementById('txtPass').value=="123") || ( document.getElementById('txtUser').value=="esovtaj" && document.getElementById('txtPass').value=="123")){
+    $.mobile.changePage('#anasayfa');}
+   else
+	{
+		alert("Kullanıcı Adı ya da Parola Yanlış")/*displays error message*/
+	}
+});
+$('#yetkibtn').click(function(){
+	window.open("#userspage","_self");
+});
+
+$('#kullanicibtn').click(function(){
+	window.open("#userspage","_self");
+});
+
+$('#keybtn').click(function(){
+	window.open("#userspage","_self");
+});
+
+$('#raporbtn').click(function(){
+	window.open("#raporpage","_self");
+});
+
+});
+</script>
+<script>
+var serviceURL = "http://192.168.1.5/nfcdoor/services/";
+var users;
+ $(document).delegate('#userspage', 'pageshow', function() {
+	getuserList();
+});
+function getuserList() {
+        $.getJSON(serviceURL + 'getuserList.php', function(data) {
+		users = data.items;
+		$('#userList li').remove();
+		$.each(users, function(index, user) {
+			$('#userList').append('<li data-icon="false"><a  rel="external" href="#keyuret?id=' + user.id + '">' +
+					'<img widht="120" height="90" src="pics/' +  user.image + '"/>' +
+					'<p><b>Kullanıcı:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + user.user + '</p><p><b>Telefon Mumarası:&nbsp;&nbsp;&nbsp;</b>' + user.phone_Number  +
+					'</p><p><b>IMEI Numarası:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>' + user.phone_IMEI + '</p>' +
+					'<p><input type="button" value="Key Üret" align="left"/></p></a></li>');		
+			});
+			$('#userList').listview('refresh');
+		});
+}
+</script>
+<script>
+$(function(){
+
+	$("#submit-button").click(function(){
+		
+				var data = "deneme";	
+			$.ajax({
+				type: "POST",
+				url: "http://192.168.1.5/nfcdoor/services/mailgonder.php",
+				data: data,
+				success: function(){
+					
+					$('#message-sent').fadeIn(500).show();
+					
+				}
+			});
+			
+		
+		
+	});	
+	
+});
+</script>
+<script>
+var serviceURL = "http://192.168.1.5/nfcdoor/services/";
+
+var employees;
+
+$(document).delegate('#keyuret', 'pageshow', function() {
+var id = getUrlVars()["id"];
+	$.getJSON(serviceURL + 'getuserdetail.php?id='+id, keyuretfunc);
+});
+
+function keyuretfunc(data) {
+		var employee = data.item;
+	    console.log(employee);
+		$('#userid').attr('value', ''+employee.Id+'');
+		$('#user').attr('value', ''+employee.user+'');
+		$('#telephone').attr('value',''+employee.telephone_number+'');
+		$('#time').attr('value', ''+employee.time+'');
+		$('#keydegeri').attr('value', ''+employee.key+'');
+		
+}
+
+function getUrlVars() {
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+	}
+</script>
+<script>
+ function onSuccess(data, status)
+        {
+            data = $.trim(data);
+            $("#notification").text(data);
+        }
+  
+        function onError(data, status)
+        {
+            // handle an error
+        }        
+  
+        $(document).ready(function() {
+            $("#submit").click(function(){
+			keydegeri.value=Math.random()*100000000000000000;
+			var formData = $("#keyuretform").serialize();
+                $.ajax({
+                    type: "POST",
+                    url: "http://192.168.1.5/nfcdoor/services/updateuseryetki.php",
+                    cache: false,
+                    data: formData,
+                    success: onSuccess,
+                    error: onError
+                });
+                return false;
+            });
+        });
+</script>
+
+<style>
+.butonlar{
+	  width:100%; 
+      height:auto;
+}
+@media only screen and (min-width:960px){
+        /* styles for browsers larger than 960px; */
+
+    }
+    @media only screen and (min-width:1440px){
+        /* styles for browsers larger than 1440px; */
+    }
+    @media only screen and (min-width:2000px){
+        /* for sumo sized (mac) screens */
+    }
+    @media only screen and (max-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+       
+    }
+    @media only screen and (device-width:768px){
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
+    @media screen and (max-width: 480px) {
+	
+	#logoimage { 
+             max-width:175px; 
+             max-height:50px; 
+	}
+	
+	#slayt { 
+             max-width:300px; 
+             max-height:150px; 
+	}
+	#backimage { 
+             width:60px; 
+             height:42px;  
+	}
+	}
+	@media screen and (max-width: 393px) {
+	
+	#logoimage { 
+             max-width:150px; 
+             max-height:40px; 
+	}
+	
+	#slayt { 
+             max-width:300px; 
+             max-height:150px; 
+	}
+	#backimage { 
+             max-width:40px; 
+             max-height:35px; 
+	}
+	}
+    </style>
+<script>
+function yetkiver() {
+   keydegeri.value=Math.random()*100000000000000000;
+}
+</script>
+</head>
+<body>
+<div align="center" data-role="page" id="giris" style="background: url(pics/bg.jpg) no-repeat;background-size: 100%;">
+	    <br><br><br>
+        <center><img src="pics/logo.jpg" align="middle" id="logoimage"/></center><br><br>
+        <b>Kullanıcı Adı:</b>
+        <input id="txtUser" type="text" data-theme="a" data-mini="true"></input>
+        <b>Parola:</b>
+        <input id="txtPass" type="password" data-theme="a" data-mini="true" /></center>
+        <button id="girissayfa" data-inline="true" />Giriş</button></center>   		
+</div><!-- /page --> 
+
+<div id="anasayfa" data-role="page" data-theme="d" data-add-back-btn="true">
+	<center><img src="pics/logo.jpg" align="center" id="logoimage"/>
+	<div><br>
+    <img src="pics/yetki.jpg" class="butonlar" id="yetkibtn"></img><br>
+	<img src="pics/key.jpg" class="butonlar" id="keybtn"></img><br>
+	<img src="pics/kullanici.jpg" class="butonlar" id="kullanicibtn"></img><br>
+	<img src="pics/rapor.jpg" class="butonlar" id="raporbtn"></img><br>
+    </div>
+</div><!-- /page -->  	
+
+<div id="keyuret" data-role="page" data-add-back-btn="true" data-theme="c">
+	<div >
+		<a href="#userspage" rel="external"><img src="pics/backbtn.jpg" class="ui-btn-left" align="left" id="backimage"/></a>
+		<img src="pics/logo.jpg" class="ui-btn-right" align="right" id="logoimage"/> <br><br><br><br><br>
+	</div>
+	<form id="keyuretform">
+	<div role="main" class="ui-content">
+		<input type="text" name="userid" id="userid" value="" readonly="readonly"/>
+		<input type="text" name="user" id="user" value="" readonly="readonly"/>
+		<input type="text" name="telephone" id="telephone" value="" readonly="readonly"/>
+		<input type="text" name="time" id="time" value="" readonly="readonly"/>
+		<input type="text" name="keydegeri" id="keydegeri" value="Key Değeri" readonly="readonly"/>
+		<h3 id="notification"></h3>
+        <center><button data-theme="c" id="submit" type="submit">Key</button></center>
+	</div>
+	</form>
+</div><!-- /page --> 
+
+<div id="userspage" data-role="page" data-theme="c">
+        <header  data-role="header" data-theme="a" data-position="fixed"  style="background: url(pics/beyaz.jpg) no-repeat;background-size: 100%;">
+		<div data-role="header" >
+			<a href="#anasayfa" rel="external"><img src="pics/backbtn.jpg" class="ui-btn-left" /></a>
+			<img src="pics/logo.jpg" class="ui-btn-right" align="right" id="logoimage"/> 
+		</div>
+		</header><br><br><br><br>
+		<div data-role="content">
+			<ul id="userList" data-role="listview" data-filter="true" ></ul>
+		</div>
+</div><!-- /page -->	
+
+<div id="raporpage" data-role="page" data-theme="d">
+		 <div  data-role="header" data-theme="a" data-position="fixed"  style="background: url(pics/beyaz.jpg) no-repeat;background-size: 100%;">
+			<a href="#anasayfa" rel="external"><img src="pics/backbtn.jpg" align="left" id="backimage"/></a>
+			<img src="pics/logo.jpg" class="ui-btn-right" align="right" id="logoimage"/> 
+		</div><br><br><br><br>
+		<div data-role="content">
+			<a href="http://192.168.1.5/nfcdoor/services/rapor.php" rel="external" data-role="button" style="background: #F3DECE; color: black;">Rapor Al</a>
+			<input type="button" id="submit-button" style="background: #DF0101; color: white;" value="Mail Gonder" />
+			<center><div style="display: none;" id="message-sent"><font color="red">Mail Gönderildi!</font></div></center>
+		</div>
+</div><!-- /page -->	
+
+</body>
+</html>

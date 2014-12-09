@@ -1,0 +1,32 @@
+<div style="{style}" data="{data}" value="{value}" class="{class}" id="AddressGenerate">
+
+<p>
+<label style="{font-size}" style="{font-size}" for="streetAddress">Street Address</label>
+<input value="" name="street_address" id="streetAddress" />
+</p>
+
+<p>
+<label style="{font-size}" for="streetAddress2">Address Line 2</label>
+<input value="" name="street_address2" id="streetAddress2" />
+</p>
+
+<p class="float_left w_50">
+<label style="{font-size}" for="cityAddress">City</label>
+<input value="" name="cityAddress" id="cityAddress" />
+</p>
+
+<p class="float_left w_50">
+<label style="{font-size}" for="zipCodeAddress">Postal / zipcode</label>
+<input value="" name="zipCodeAddress" id="zipCodeAddress" />
+</p>
+                    
+<p class="float_left w_50">
+<label style="{font-size}" for="regionAddress">State/Province/Region</label>
+<input value="" name="regionAddress" id="regionAddress" />
+</p>
+
+<p class="float_left w_50">
+<label style="{font-size}" for="CountryAddress">Country</label>
+<select name="CountryAddress" id="CountryAddress" >{country}</select>
+</p>
+</div>

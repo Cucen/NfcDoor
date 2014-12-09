@@ -1,0 +1,996 @@
+.CPD {
+    background-color:inherit; line-height: 16px; font-family:Arial, Helvetica, sans-serif; font-size: 12px;
+}
+.CPD .Main{
+    position: relative;
+    background-color:inherit;
+    min-height: 750px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.CPD #Fullscreen {	
+    position: absolute;
+    top:0;
+    right:0;
+    padding:10px;
+    cursor: pointer;
+    z-index:10000;
+
+    border:1px solid #CCC;
+    border-radius:4px;
+
+    width:95px;
+
+    background:#FFF;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #EEEEEE),
+        color-stop(1, #FFFFFF)
+        );
+}
+
+.CPD #Fullscreen span {
+    background-image:url('img/full_screen.png');
+    background-repeat: no-repeat;
+    height:24px;
+    line-height: 24px;
+    float:left;
+    text-indent: 30px;
+    font-weight: bold;
+}
+
+.CPD #Fullscreen:hover {
+    background:#FFF;
+    background-image: linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #FFFFFF),
+        color-stop(1, #EEEEEE)
+        );
+}
+
+
+.CPD .Workflow {
+    position: absolute;
+    left:250px;
+    top:10px;
+    overflow: hidden;
+    z-index:9999;
+}
+
+.CPD .Workflow h1 {    
+    color:#666;
+    font-size:12px;
+    font-weight: bold;
+    padding:0 0 5px 0;
+    cursor: pointer;
+}
+
+.CPD .Workflow_Wrapper {
+    border:1px dashed #CCC;
+    background:#FFF;
+    height:400px;	
+    width:600px;
+}
+
+.CPD #Workflow_resize_handle {
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:12px;
+    height:12px;
+    /*    background-image:url('img/resize.png');*/
+    background-repeat: no-repeat;
+
+}
+
+.CPD #Workflow_resize_coords {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10000;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#666;
+    font-size:12px;
+    font-weight: bold;
+    display: none;
+}
+
+.CPD .Toolbar {
+    background:#FFF;
+    width:190px;
+    border-radius:4px;
+    border:1px solid #ddd;
+    position: absolute;
+    left:10px;
+    top:10px;
+    z-index:10000;
+}
+
+.CPD #MakeDefault { 
+    background-image:url('img/activate.png');
+    width:16px;
+    height:16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    right:50px;
+    cursor: pointer;
+}
+
+.CPD #NewTemplate { 
+    background-image:url('img/new_tpl.png');
+    width:16px;
+    height:16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    right:75px;
+    cursor: pointer;
+}
+
+.CPD #SaveTemplate { 
+    background-image:url('img/save.png');
+    width:16px;
+    height:16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+    right:25px;
+    cursor: pointer;
+}
+.CPD #selectTemplate { 
+    background-image:url('img/load_tpl.png');
+    width:16px;
+    height:16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-1px;
+    right:50px;
+    cursor: pointer;
+}
+.CPD #editTemplate { 
+    background-image:url('img/settings.png');
+    width:16px;
+    height:16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-1px;
+    right:2px;
+    cursor: pointer;
+}
+
+.CPD h1#Toolbar_move_handle {
+    width:190px;
+    height:40px;
+    border-radius:4px 4px 0 0;
+    border-bottom:1px solid #ddd;
+    color:#666;
+    font-size:15px;
+    font-weight: bold;
+    text-align: center;
+    line-height:40px;
+    cursor: pointer;
+
+    background:#FFF;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #EEEEEE),
+        color-stop(1, #FFFFFF)
+        );
+}
+
+.Toolbar_move_handle_scroll {
+    height: 381px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.CPD ul.ToolsList {
+    margin-bottom:10px;
+}
+
+.CPD ul.ToolsList li {
+    width:150px; height:25px;
+    border-radius:2px;
+    border:1px solid #ddd;
+    color:#666;
+    font-size:12px;
+    font-weight: normal;
+    text-align: left;
+    text-indent: 10px;
+    line-height:25px;
+    cursor: pointer;
+    margin-top:9px;
+    margin-left:9px;
+
+    background:#FFF;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #EEEEEE),
+        color-stop(1, #FFFFFF)
+        );
+	border-radius: 9px 9px 9px 9px;	-webkit-border-radius: 9px 9px 9px 9px; -moz-border-radius: 9px 9px 9px 9px; 
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+	border-color: #EEEEEE #CCCCCC #CCCCCC #EEEEEE;
+	box-shadow:	rgba(0, 0, 0, 0.1) 0 1px 3px 0;
+}
+
+.CPD ul.ToolsList li:hover {
+    background:#FFF;
+    /*background-image: linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #FFFFFF),
+        color-stop(1, #EEEEEE)
+        );*/
+	background-color: #dfeea3;
+	border-color: #c6d880;
+}
+
+.CPD ul.ToolsList li > span {
+    width:25px;
+    height:25px;
+    background-repeat: no-repeat;
+    background-position:0 50%;
+    margin-left:14px;
+    float:left;
+}
+.CPD ul.ToolsList #createParagraph span {
+    background-image: url('img/paragraph.png');
+}
+.CPD ul.ToolsList #createLabel span {
+    background-image: url('img/label.png');
+}
+.CPD ul.ToolsList #createField span {
+    background-image: url('img/field.png');
+}
+.CPD ul.ToolsList #createCheckbox span {
+    background-image: url('img/checkbox.png');
+}
+.CPD ul.ToolsList #createMultipleChoice span {
+    background-image: url('img/multiple_choice.png');
+}
+.CPD ul.ToolsList #createMailField span {
+    background-image: url('img/email_field.png');
+}
+.CPD ul.ToolsList #createTextarea span {
+    background-image: url('img/textarea.png');
+}
+.CPD ul.ToolsList #createSubmit span {
+    background-image: url('img/button.png');
+}
+.CPD ul.ToolsList #createMap span {
+    background-image: url('img/map.png');
+}
+.CPD ul.ToolsList #createCaptcha span {
+    background-image: url('img/captcha_ico.png');
+}
+.CPD ul.ToolsList #createImg span {
+    background-image: url('img/img.png');
+}
+.CPD ul.ToolsList #createSelect span {
+    background-image: url('img/dropdown_menu_icon.png');
+}
+.CPD ul.ToolsList #createFacebook span {
+    background-image: url('img/facebook.png');
+}
+.CPD ul.ToolsList #createTwitter span {
+    background-image: url('img/twitter.png');
+}
+.CPD ul.ToolsList #createAddress span {
+    background-image: url('img/Address-icon.png');
+}
+.CPD ul.ToolsList #createPrice span {
+    background-image: url('img/price.png');
+}
+.CPD ul.ToolsList #createQuantity span {
+    background-image: url('img/quantity.png');
+}
+.CPD ul.ToolsList #createTotal span {
+    background-image: url('img/total_plan_cost.png');
+}
+.CPD ul.ToolsList #createPaypal span {
+    background-image: url('img/paypal.png');
+}
+.CPD ul.ToolsList #createDate span {
+    background-image: url('img/date.png');
+}
+.CPD ul.ToolsList #createTime span {
+    background-image: url('img/time.png');
+}
+.Twitter {
+    background: url('img/twitter_like_icon.png') no-repeat;
+    width: 60px;
+    height: 20px;
+    display: block;
+}
+.facebook {
+    background: url('img/createFacebook.png') no-repeat;
+    width:128px;
+    height: 20px;
+    display: block;
+}
+.Workflow_Wrapper ul {
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+/* Elements CSS */
+
+
+/* Labels and Paragraphs */
+.Workflow_Wrapper ul li > p, .Workflow_Wrapper ul li > label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: normal;
+}
+
+.Workflow_Wrapper ul li p {
+    color:#000;
+}
+
+.Workflow_Wrapper ul li > label {
+    color:#666;
+}
+
+/* Input Text and Password */
+.Workflow_Wrapper ul li input[type=text], .Workflow_Wrapper ul li input[type=email] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: normal;
+    color:#000;
+    height:25px;
+/*    width:200px;*/
+    border:1px solid #CCCCCC;
+    line-height: 25px;
+	text-align: left;
+/*    text-align: center;*/
+}
+/* TextArea */
+.Workflow_Wrapper ul li textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: normal;
+    color:#000;
+    height:150px;
+    width:450px;
+    border:1px solid #CCCCCC;
+    text-align: left;
+}
+
+/* Submit button */
+.Workflow_Wrapper ul li input[type=submit], .Workflow_Wrapper ul li input[type=button] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: normal;
+    color:#000;
+    height:25px;
+    border:1px solid #DDDDDD;
+    text-align: center;
+    border-radius:4px;
+    cursor: pointer;
+}
+
+.Workflow_Wrapper .elementTools {
+    position: absolute;
+    top:-22px; left: -2px;
+    display:none;
+    background: #EEE;
+    border:1px solid #CCC ;
+    width:53px;
+    height:20px;
+    border-radius:4px;
+    z-index: 10000;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.Workflow_Wrapper .elementTools .move {
+    background-image:url('img/move.png');
+    width:12px;
+    height:12px;
+    background-repeat: no-repeat;
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:5px;
+    cursor: pointer;
+}
+.Workflow_Wrapper .elementTools .edit {
+    background-image:url('img/edit.png');
+    width:10px;
+    height:10px;
+    background-repeat: no-repeat;
+    float:left;
+    margin-right:5px;
+    margin-top:5px;
+    cursor: pointer;
+}
+.Workflow_Wrapper .elementTools .delete {
+    background-image:url('img/delete.png');
+    width:10px;
+    height:10px;
+    background-repeat: no-repeat;
+    float:left;
+    margin-right:5px;
+    margin-top:5px;
+    cursor: pointer;
+}
+
+/* Element Editor */
+
+.CPD .BlackBox {
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: 10000;
+    left:0;
+    top:0;
+    display: none;
+}
+
+.CPD .separate{
+    width:100%;
+    height:1px;
+    clear:both;
+}
+
+
+/* Paragraph */
+.CPD .ElementEditor .EditParagraph {
+    width:355px;
+    background:#FFF;
+    display: none;
+    padding:10px;
+    border-radius:0 0 4px 4px;
+    overflow: hidden;
+}
+
+.CPD .ElementEditor textarea {
+    width:100%;
+    height:100px;
+    border:1px solid #CCC;
+    color:#666;
+    resize: none;
+    margin-bottom: 5px;
+}
+
+
+/* Edit TextArea */
+
+
+/* Edit InputText */
+
+
+.CPD .TemplateProperties input[type=button], .CPD .ElementEditor input[type=button] {
+    border-radius:4px;
+    border: 1px solid #CCCCCC;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 32px;
+    margin: 12px auto 0 127px;
+    text-align: center;
+    width: 110px;
+    cursor: pointer;
+
+
+    background:#FFF;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #EEEEEE),
+        color-stop(1, #FFFFFF)
+        );
+}
+
+.CPD .TemplateProperties input[type=button]:hover, .CPD .ElementEditor input[type=button]:hover {
+    background:#FFF;
+    background-image: linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #FFFFFF),
+        color-stop(1, #EEEEEE)
+        );
+}
+
+
+/* edit Select*/
+.CPD .ElementEditor .EditSelect .importButton, .CPD .ElementEditor .EditMultipleChoice .importButton {
+    text-align: right;
+    margin-left: 135px;
+}
+.CPD .ElementEditor .EditSelect .selectChoiseDropDown, .CPD .ElementEditor .EditMultipleChoice .selectChoiseDropDown {
+    list-style: none;
+    width: 100%;
+}
+.CPD .ElementEditor .EditSelect .selectChoiseDropDown span, .CPD .ElementEditor .EditMultipleChoice .selectChoiseDropDown span {
+    font-weight: bold;
+}
+
+.CPD .ElementEditor .EditSelect .selectChoiseDropDown li, .CPD .ElementEditor .EditMultipleChoice .selectChoiseDropDown li {
+    display: inline-block;
+    float: left;
+}
+.CPD .ElementEditor .EditSelect .selectChoiseDropDown li a, .CPD .ElementEditor .EditMultipleChoice .selectChoiseDropDown li a {
+    display: block;
+    padding: 5px;
+}
+.SelectError {
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+.optionSelectSave span{
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+}
+
+/* Edit CAPTCHA */
+/* Edit MAP */
+/* Edit Img */
+.colorpicker {
+    z-index:11111;
+}
+
+/* Template Properties */
+
+.CPD .TemplateProperties {
+    position: absolute;
+    z-index:10000;
+    left:0;
+    top:0;
+
+    background: #FFF;
+
+    width:400px;
+    overflow: hidden;
+
+    border:6px solid #999;
+    border-radius:6px;
+
+    display: none;
+}
+.CPD .TemplateProperties h4{
+    width:100%;
+    height:35px;
+    line-height: 35px; margin: 0px;
+
+    background:#FFF;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #EEEEEE),
+        color-stop(1, #FFFFFF)
+        );
+    cursor: pointer;
+
+    border-bottom:1px solid #333;
+
+    font-size:16px;
+    font-weight: bold;
+    text-indent: 10px;
+
+    border-radius:4px 4px 0 0;
+}
+
+.CPD .TemplateProperties h4 span {
+    float:right;
+    font-size: 0;
+    background-image:url('img/close_button.png');
+    background-repeat: no-repeat;
+    width:16px;
+    height:16px;
+    margin-right: 9px;
+    margin-top:9px;
+}
+
+.CPD .TemplateProperties label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align: left;
+    float:left;
+    margin-bottom:5px;
+    color:#666;
+    line-height: 20px;
+    margin-top:10px;
+    margin-left:10px;
+
+}
+
+.CPD .TemplateProperties input[type=text] {
+    height:21px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align: left;
+    float:left;
+    margin-bottom:5px;
+    width:280px;
+    border:1px solid #CCC;
+    color:#666;
+
+    margin-top:10px;
+    margin-left:10px;
+}
+
+/* Select Template */
+
+.CPD .SelectTemplate {
+    position: absolute;
+    z-index:10000;
+    left:0;
+    top:0;
+    background: #FFF;
+    overflow: hidden;
+    border:6px solid #999;
+    border-radius:6px;
+    display: none;
+}
+.CPD .SelectTemplate i {
+    color: #ccc;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+}
+
+.CPD .SelectTemplate h4{
+    width:100%;
+    height:35px;
+    line-height: 35px; margin: 0;
+
+    background:#FFF;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #EEEEEE),
+        color-stop(1, #FFFFFF)
+        );
+    cursor: pointer;
+
+    border-bottom:1px solid #333;
+
+    font-size:16px;
+    font-weight: bold;
+    text-indent: 10px;
+
+    border-radius:4px 4px 0 0;
+}
+
+.CPD .SelectTemplate h4 span {
+    float:right;
+    font-size: 0;
+    background-image:url('img/close_button.png');
+    background-repeat: no-repeat;
+    width:16px;
+    height:16px;
+    margin-right: 9px;
+    margin-top:9px;
+}
+
+.CPD .SelectTemplate ul {
+    padding:10px;
+    padding-bottom:0px;
+}
+
+.CPD .SelectTemplate ul li {
+    background: -moz-linear-gradient(center bottom , #EEEEEE 0%, #FFFFFF 100%) repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px 2px 2px 2px;
+    color: #666666;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: normal;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.CPD .SelectTemplate ul li:hover {
+    background:#FFF;
+    background-image: linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #EEEEEE 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #FFFFFF),
+        color-stop(1, #EEEEEE)
+        );
+}
+
+#AddressGenerate {
+    width: 469px;
+    height: 182px;
+/*    border: 1px solid #ccc;*/
+/*    padding: 5px;*/
+}
+#AddressGenerate p {
+    clear: both;
+/*    margin: 0 auto;*/
+	margin: 0;
+    width: 90%;
+}
+.CPDBold {
+    font-weight: bold;
+}
+#AddressGenerate p input,#AddressGenerate p select {
+    border: 1px solid #ccc;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+}
+#AddressGenerate p.float_left {
+    float: left;
+    clear: none;
+}
+#AddressGenerate p.w_50 {
+    width: 43%;
+/*	margin: 0 0 0 22px;*/
+	margin: 0 22px 0 0; 
+}
+
+/* ---ElementEditor common styles start--- */
+.CPD .ElementEditor {
+    position: absolute;
+    z-index:10000;
+    left:0;
+    top:0;
+
+    border:6px solid #999;
+    border-radius:6px;
+
+    display: none;
+}
+
+.CPD .ElementEditor h4 {
+    width:100%; height:35px; line-height: 35px; display: none; margin: 0px;
+    background:#FFF;
+    background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #EEEEEE),
+        color-stop(1, #FFFFFF)
+        );
+    cursor: pointer;
+
+    border-bottom:1px solid #333;
+    background-color: #fff;
+    font-size:16px; font-weight: bold; text-indent: 10px; border-radius:4px 4px 0 0;
+}
+
+.CPD .ElementEditor h4 span {
+    float:right;
+    font-size: 0;
+    background-image:url('img/close_button.png');
+    background-repeat: no-repeat;
+    width:16px;
+    height:16px;
+    margin-right: 9px;
+    margin-top:9px;
+}
+
+.CPD .ElementEditor > div {
+    width:355px;
+    background:#FFF;
+    display: none;
+    padding:10px;
+    border-radius:0 0 4px 4px;
+    overflow: hidden;
+}
+.CPD .ElementEditor label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align: left;
+    float:left;
+    margin-bottom:5px;
+    color:#666;
+    min-width:150px;
+    line-height: 19px;
+}
+.CPD .ElementEditor input.name {
+    width:200px;
+}
+.CPD .ElementEditor input[type=text] {
+    height:19px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align: left;
+    float:left;
+    margin-bottom:5px;
+    width:200px;
+    border:1px solid #CCC;
+    color:#666;
+}
+.CPD .ElementEditor input[name=width] {
+    width:50px !important;
+}
+
+.CPD .ElementEditor input[name=height] {
+    width:50px !important;
+}
+.CPD .ElementEditor input[name=color], .CPD .ElementEditor input[name=bgcolor], .CPD .ElementEditor input[name=brcolor] {
+    width:70px !important;
+}
+.CPD .ElementEditor input[name=left] {
+    width:50px !important;
+}
+.CPD .ElementEditor input[name=top] {
+    width:50px !important;
+}
+.CPD .ElementEditor input[name=font-size] {
+    width:50px;
+}
+.CPD .ElementEditor .colorPalette {
+    margin-left:5px;
+    background-image:url('img/colorpicker.png');
+    background-repeat: no-repeat;
+    height:21px;
+    width:24px;
+    float:left;
+    cursor: pointer;
+}
+.CPD .ElementEditor select {
+    line-height: 19px;
+    height:19px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    text-align: left;
+    float:left;
+    margin-bottom:5px;
+    width:200px;
+    border:1px solid #CCC;
+    color:#666;
+}
+/* ---ElementEditor common styles end--- */
+/* Checkbox styles */
+.CPD .checkbox > input {
+	vertical-align:middle; margin-right: 4px;
+}
+/* Checkbox styles end */
+
+/* MultipleChoice Styles */
+.CPD .multiple_choice span {
+	display: block;
+}
+.CPD .multiple_choice input {
+	margin-right: 2px; vertical-align: text-top;
+}
+/* MultipleChoice End */
+.CPD .Workflow_Wrapper select {
+    width: 150px;
+    border: 1px solid #ccc;
+}
+.CPD textarea, .CPD input, .CPD select {
+    margin: 0; padding: 0;
+}
+.CPD ul > li {
+	border: 1px dotted transparent; padding: 2px;
+}
+.CPD .Workflow_Wrapper ul > li:hover {
+	border: 1px dashed #3b699f;
+}
+.CPD li.required {
+	padding-right: 10px;
+	background: url("img/required_icon.gif") no-repeat right 5px;
+}
+.CPD .price .currency, .CPD .total .currency {
+	margin-right: 2px;
+}
+/*.CPD .price .currency {
+	padding-top: 3px;
+}
+.CPD .price span {
+	display: block; float: left; margin-right: 5px;
+}
+.CPD .price .dollar input {
+	width: 90px;
+}
+.CPD .price .cent input {
+	width: 46px;
+}*/
+.CPD .total .define-list {
+	display: none;
+}
+.CPD div.date input, .CPD input.quantity {
+	width: 100px;
+}
+.CPD .date img {
+	margin: 0px 0px 0px 2px;
+}
+.CPD .time input {
+	width: 100px;
+}
+.CPD .time span {
+	display:inline-block; width: 17px; height: 18px; background: url("img/clock.png") no-repeat; margin-left: 2px;
+}
+.CPD input[type=button], .CPD input[type=submit]{
+	cursor: pointer;
+}
+#AddressGenerate.required p {	
+	background: url("img/required_icon.gif") no-repeat right 20px;
+	padding-right: 10px;
+}

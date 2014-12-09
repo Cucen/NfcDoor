@@ -1,0 +1,12 @@
+/* 
+    Document   : admin-setting
+    Created on : Jun 7, 2012, 4:47:49 PM
+    Author     : Tie Jin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+input[type="text"] {
+	width: 300px;
+}
+

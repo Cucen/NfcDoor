@@ -1,0 +1,192 @@
+/*   
+Theme Name: mDesign v1.1 Blog Teması
+Theme URI: http://wmscripti.com/temalar/mdesign-wordpress-blog-temasi.html
+Author: WM Scripti
+Author URI: http://wmscripti.com
+Description: Tasarım: Cengizhan YILDIZ | CSS: Muhammed KAYA | Wordpress ve Düzenlemeler: WM Scripti
+Version: 1.1
+*/
+table, tr, td, ul, ol, li, h1, h2, h3, h4, h5, h6, p, form, input, textarea, select, button, p, img {padding: 0; margin: 0; border: 0}
+table {border-collapse: collapse}
+li {list-style: none}
+a {text-decoration: none}
+:focus {outline: 0}
+.temizlik {clear:both}
+
+
+body {background-color: #eeeeee; margin: auto;}
+
+#ustbilgi {margin:0px;padding:0px; background:url(images/ustbilgi.png)repeat-x;color:#fff;font-size:12px;font-family:Trebuchet MS;height:27px;}
+#ustbilgi span {margin:7px 15px 0px 0px}
+#header {margin:0px;padding:0px;height:220px;background:#156e9a url(images/doku.png) repeat-x center;display:block;}
+.header-isik{ height:220px; margin:0 auto;background:url(images/isik.png) no-repeat top center;}
+
+#logo {margin:0 auto; padding:50px 0px; display:block; width:980px;height:87px;}
+.reklam {margin-left:100px;}
+
+#menu {margin:0 auto;padding:0px 10px;background:url(images/menu.png) no-repeat center;height:63px;width:980px;text-transform:lowercase}
+#menu ul li {float:left;padding:18px 15px;}
+#menu ul li a{text-decoration:none;color:#fff;font-weight:bold;font-size:15px}
+#menu ul li a:hover{color:#5fcdfb;}
+
+#arama_kutusu {float:right;margin:7px 0px;padding:0px;background:url(images/arama-kutusu.png) no-repeat top right; width:230px;height:44px}
+#arama_kutusu input[type=text]{background:none;color:#fff;font-size:14px;margin:10px 25px;margin-right:0px;padding:0px 0px;height:21px;width:170px;}
+#arama_kutusu input[type=submit]{margin:0px;padding:0px;background:url(images/arama.png) no-repeat center;width:21px;height:21px;}
+
+
+#ortalama {width:1000px;margin:0 auto}
+
+
+#sol-kisim {margin:0px;padding:0px;float:left;width:710px;}
+
+.yazi {width:650px;}
+.yazi_baslik {color:#fff;width:650px;height:20px;margin:0px;padding:25px 25px;background:url(images/yazi_baslik.png) no-repeat;}
+.yazi_baslik a{color:#fff;font-weight:bold;font-size:15pt;padding-top:5px;}
+.yazi_baslik a:link{color:#fff;}
+.yazi_baslik a:link:hover{color:#5fcdfb;}
+.yazi_baslik .yorum_sayisi {margin:0px;padding:9px 0px 0px 30px;font-size:15px;color:#7d7d7d;float:right;background:url(images/yorum_icon.png)no-repeat top center;width:38px;height:34px;}
+
+.yazi_ic {width:666px;margin:0px 3px;padding:15px;color:#6d6c6c;font-size:13px;background:#ffffff;border-left:2px solid #b9b9b9;font-family:Calibri;}
+.yazi_ic img.yazi_resim{border:3px solid #c2c2c2;float:left;margin:0px 10px 0px 0px;border-radius: 5px;width:150px;height:150px;}
+.yazi_ic .devami {width:116px;height:47px;float:right;margin:0px;padding:0px;background:url(images/devami.png)}
+.yazi_ic .yazi_bilgileri {float:left;background:url(images/yazi_bilgileri_bg.png) repeat-x; font-size:13px; margin:0px 6px;padding:5px 5px;height:18px;border:1px solid #ddd; border-radius: 5px;}
+.yazi_ic .yazi_bilgileri a {color:#6d6c6c}
+.yazi_ic .yazi_bilgileri a:hover {color:#000}
+.yazi_ic .yazi_bilgileri span {padding-top:3px;padding-right:3px}
+	.kategori_icon {padding-left:25px;background:url(images/kategori_icon.png) no-repeat; height:20px; display:block;}
+	.yazar_icon {padding-left:25px;background:url(images/yazar_icon.png) no-repeat; height:20px; display:block;}
+	.goruntulenme_icon {padding-left:25px;background:url(images/goruntulenme_icon.png) no-repeat; height:20px; display:block;}
+	.tarih_icon {padding-left:25px;background:url(images/tarih_icon.png) no-repeat; height:26px; display:block;}
+.yazi_alt {width:702px;height:17px;margin:0px;padding:0px;background:url(images/yazi_alt.png) no-repeat}
+
+
+
+
+#sag-kisim{margin:0px;padding:0px;float:left}
+
+.sag-menu-baslik {color:#fff;font-weight:bold;font-size:16pt;font-family:Trebuchet MS;margin:0px;padding:13px 25px;background:url(images/sag_menu_baslik.png) no-repeat left;width:240px;height:22px;display:block;}
+.sag-menu-icerik {margin:0px 1px;background:#ffffff;border-left:1px solid #b5b5b5;border-right:1px solid #b5b5b5;width:259px;padding-left:10px}
+	.facebook {background:url(images/sosyal_aglar.png) repeat-x; padding:11px; background-position: 0px 0px; width:20px;height:15px; display:block; float:left; }
+	.twitter {background:url(images/sosyal_aglar.png) repeat-x; padding:11px; background-position: -35px 0px; width:20px;height:15px; display:block;float:left; }
+	.dribbble {background:url(images/sosyal_aglar.png) repeat-x; padding:11px; background-position: -76px 0px; width:20px;height:15px; display:block;float:left; }
+	.rss {background:url(images/sosyal_aglar.png) repeat-x; padding:11px; background-position: -120px 0px; width:20px;height:15px; display:block;float:left; }
+	.flickr {background:url(images/sosyal_aglar.png) repeat-x; padding:11px; background-position: -160px 0px; width:20px;height:15px; display:block;float:left; }
+	.myspace {background:url(images/sosyal_aglar.png) repeat-x; padding:11px; background-position: -202px 0px; width:20px;height:15px; display:block;float:left; }
+
+	ul#kategoriler {width:100%;}
+	ul#kategoriler  li{width:50%;float:left}
+	ul#kategoriler  li a{color:#707070;font-size:13px;background:url(images/kateicon.png) no-repeat;padding-left:15px;padding-top:3px;}
+	ul#kategoriler  li a:hover{color:#000;}
+
+	ul#hit-yazilar  li a{color:#707070;font-size:13px;background:url(images/kateicon.png) no-repeat;padding-left:15px;padding-top:5px;}
+	ul#hit-yazilar  li a:hover{color:#000;}
+	
+	ul#etiketler  {width:100%;}
+	ul#etiketler  li{float:left}
+	ul#etiketler  li a{color:#444;font-size:15px;padding:0px;margin:10px;}
+	#etiketler a:link {color:#444}
+	#etiketler a:hover {color:#000}
+	
+	ul#tavsiye-baglantilar  {width:100%;}
+	ul#tavsiye-baglantilar li{float:left;padding:5px}
+	ul#tavsiye-baglantilar li img{border:3px solid #ddd;width:42px;height:40px}
+	ul#tavsiye-baglantilar li img:hover{border:3px solid #2199c4}
+
+
+.sag-menu-alt {margin:0px;padding:0px;background:url(images/sag_menu_alt.png) no-repeat top left;width:275px;height:22px;display:block;}
+
+
+	#sayfalama  {width:100%;}
+	#sayfalama a{color:#8ed6ff;font-weight:bold;font-size:15px;font-family:Trebuchet MS;float:left;background:url(images/sayfalama.png); background-position: -40px 0px; padding:11px;margin-left:5px;width:10px;height:15px}
+	#sayfalama a:hover{background:url(images/sayfalama.png); background-position: -7px 0px; }
+	#sayfalama a.secili{background:url(images/sayfalama.png); background-position: -7px 0px; }
+	#sayfalama a.ileri{background:url(images/sayfalama.png); background-position: -70px 0px;color:#8ed6ff;font-weight:bold;font-size:15px;font-family:Trebuchet MS;padding:11px;margin-left:5px;display:block;width:10px;height:15px }
+	#sayfalama a.ucnokta{padding-left:7px;padding-right:15px; }
+	
+	
+#footer {background:url(images/footer.png)no-repeat center;width:1000px;height:80px;padding:30px 0px;display:block}
+#footer img.logo{width:201px;height:45px;}
+
+.footer-bloklar {background:url(images/cizgi.png)no-repeat left;float:left;display:block;height:80px;color:#fff;font-size:12px;font-family:Trebuchet MS;}
+
+	ul.footer-bloklar {width:230px;}
+	ul.footer-bloklar li{width:100px;float:left;color:#fff;font-size:12px;padding-left:15px;padding-top:2px;}
+	ul.footer-bloklar li a{color:#fff;}
+	ul.footer-bloklar li a:hover{color:#0ff;}
+	
+/* Yorum */
+textarea#comment {width: 470px; padding: 5px; height: 50px; border: 1px solid #ededed; background: #fff; color: #666; margin: 5px 0px;} 
+a:link {color:#6d6c6c}
+a:link:hover {color:#000}
+.commentmetadata { font-size: 11px; } 
+#yorum {
+width: 500px;
+}
+.yorum-alt {
+width: 425px;
+border: 1px solid #eee;
+padding: 5px;
+background: #fafafa;
+}
+.yorum-yan {
+width: 335px;
+margin-left: 65px;
+}
+.yorum-avatar img {
+background: #FFF;
+border: 1px solid #eee;
+padding: 5px;
+float: left;
+}
+#yorumtemp {
+line-height: 1.6;
+width: 500px;
+padding: 0;
+margin: 0;
+}
+.yorumlar {
+width: 500px;
+list-style-type: none;
+}
+.yorumyap {
+width: 480px;
+padding: 3px 12px 4px 10px;
+border: 1px solid #ededed;
+background: #fafafa;
+}
+.genislik {
+width:100px;
+float:left;
+}
+#submit {
+background: #f5f5f5;
+padding: 4px 6px;
+color: #000;
+margin: 3px 0px;
+font: 11px Tahoma;
+border: 1px solid #ddd;
+}
+#author {
+background: #f5f5f5;
+padding: 4px 6px;
+margin: 3px 0px;
+color: #000;
+font: 11px Tahoma;
+border: 1px solid #ddd;
+}
+#email {
+background: #f5f5f5;
+padding: 4px 6px;
+margin: 3px 0px;
+color: #000;
+font: 11px Tahoma;
+border: 1px solid #ddd;
+}
+#url {
+background: #f5f5f5;
+padding: 4px 6px;
+margin: 3px 0px;
+color: #000;
+font: 11px Tahoma;
+border: 1px solid #ddd;
+}

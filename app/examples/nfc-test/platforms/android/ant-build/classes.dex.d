@@ -1,0 +1,21 @@
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes.dex : \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$1.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$2.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$3.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$4.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$5.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$6.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$7.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$8.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin$9.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\NfcPlugin.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\chariotsolutions\nfc\plugin\Util.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\example\nfc\test\BuildConfig.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\example\nfc\test\CordovaApp.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\example\nfc\test\R$attr.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\example\nfc\test\R$drawable.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\example\nfc\test\R$string.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\example\nfc\test\R$xml.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\com\example\nfc\test\R.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\classes\org\apache\cordova\api\Dummy.class \
+c:\Users\Muzeyyen\examples\nfc-test\platforms\android\ant-build\dexedLibs\classes-0e82dfa0e131951f54e8c8fc05ac4a94.jar \

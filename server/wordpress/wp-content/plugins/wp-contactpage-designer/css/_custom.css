@@ -1,0 +1,77 @@
+.hidden {
+    display: none;
+}
+.cpd_errorFrondEnd {
+    color: white;
+    height: 27px;
+    position: absolute;
+    z-index: 50000;
+    width: 300px;
+}
+.cpd_errorArrow_left {
+    background: url(img/arrow_left.png) no-repeat;
+    width: 14px;
+    height: 27px;
+    float: left;
+}
+.cpd_errorArrow_repeat{
+    background: url(img/arrow_repeat.png) repeat-x;
+    height: 27px;
+    float: left;
+    white-space: nowrap;
+    line-height: 2.0em !important;
+}
+.cpd_errorArrow_right{
+    background: url(img/arrow_right.png) no-repeat;
+    height: 27px;
+    float: left;
+    width: 6px;
+}
+#cpdFormSumit .submit-error {
+	border: 1px solid #CC0000; border-radius: 3px 3px 3px 3px;
+	background: url(img/error.png) no-repeat #FFEBE8 2px 5px;
+	padding: 5px 20px; z-index: 1000;
+}
+#cpdFormSumit .submit-success {
+	border: 1px solid #007236; border-radius: 3px 3px 3px 3px;
+	background: url(img/success.png) no-repeat #e8f5ee left 3px;
+	padding: 5px 20px; z-index: 1000;
+}
+/*
+.cpd_append_label {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    color: #666;
+}
+
+#AddressGenerate {
+    width: 469px;
+}
+#AddressGenerate p {
+    clear: both;
+    margin: 3px auto;
+    width: 90%;
+}
+#AddressGenerate p label {
+    padding: 6px 0;
+    display: block;
+}
+#AddressGenerate p input,#AddressGenerate p select {
+    border: 1px solid #ccc;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+}
+#AddressGenerate p.float_left {
+    float: left;
+    clear: none;
+}
+#AddressGenerate p.w_50 {
+    margin: 0 0 0 22px;
+    width: 43%;
+}*/

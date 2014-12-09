@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="Jaan" />
+	<script src="jquery.js"></script>
+	<script src="process.js"></script>
+	<title>Sending emails with PHP &amp; jQuery</title>
+	<style type="text/css">
+	body{
+		
+		font-family: Verdana;
+		font-size: 11px;
+		
+	}
+	
+	input{
+		
+		font-family: Verdana;
+		font-size: 11px;
+		
+	}
+	
+	table{
+		
+		border: 1px solid #cccccc;
+		
+	}
+	
+	textarea{
+		
+		font-family: Verdana;
+		font-size: 11px;
+		
+	}
+	</style>
+</head>
+
+<body>
+
+<table align="center" border="0" width="500">
+	<tr>
+		<td>To:</td><td><input type="text" size="30" id="to" /><div style="display: none;" id="error-to"><font color="#FF0000">Insert email address!</font></div></td>
+	</tr>
+	<tr>
+		<td>From:</td><td><input type="text" size="30" id="from" /><div style="display: none;" id="error-from"><font color="#FF0000">Your email/name here!</font></div></td>
+	</tr>
+	<tr>
+		<td>Subject:</td><td><input type="text" size="30" id="subject" /><div style="display: none;" id="error-subject"><font color="#FF0000">Enter subject!</font></div></td>
+	</tr>
+	<tr>
+		<td colspan="2"><textarea id="content" rows="9" cols="59"></textarea></td>
+	</tr>
+	<tr>
+		<td width="10%"><input type="button" id="submit-button" value="Send" /></td>
+		<td>
+			<div style="display: none;" id="loading"><img src="loading.gif" /> <font color="#FF0000">Sending..</font></div>
+			<div style="display: none;" id="message-sent"><font color="#008040">Message sent!</font></div>
+			<div style="display: none;" id="error-content"><font color="#FF0000">Please enter come content!</font></div>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

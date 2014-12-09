@@ -1,0 +1,45 @@
+.CPD *, .CPD html, .CPD body, .CPD div, .CPD span, .CPD applet, .CPD object, .CPD iframe,
+.CPD h1, .CPD h2, .CPD h3, .CPD h4, .CPD h5, .CPD h6, .CPD p, .CPD blockquote, .CPD pre,
+.CPD a, .CPD abbr, .CPD acronym, .CPD address, .CPD big, .CPD cite, .CPD code,
+.CPD del, .CPD dfn, .CPD em, .CPD img, .CPD ins, .CPD kbd, .CPD q, .CPD s, .CPD samp,
+.CPD small, .CPD strike, .CPD strong, .CPD sub, .CPD sup, .CPD tt, .CPD var,
+.CPD b, .CPD u, .CPD i, .CPD center,
+.CPD dl, .CPD dt, .CPD dd, .CPD ol, .CPD ul, .CPD li,
+.CPD fieldset, .CPD form, .CPD label, .CPD legend,
+.CPD table, .CPD caption, .CPD tbody, .CPD tfoot, .CPD thead, .CPD tr, .CPD th, .CPD td,
+.CPD article, .CPD aside, .CPD canvas, .CPD details, .CPD embed, 
+.CPD figure, .CPD figcaption, .CPD footer, .CPD header, .CPD hgroup, 
+.CPD menu, .CPD nav, .CPD output, .CPD ruby, .CPD section, .CPD summary,
+.CPD time, .CPD mark, .CPD audio, .CPD video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+	max-width: none;
+	box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+}
+
+.CPD article, .CPD aside, .CPD details, .CPD figcaption, .CPD figure, 
+.CPD footer, .CPD header, .CPD hgroup, .CPD menu, .CPD nav, .CPD section {
+    display: block;
+}
+
+.CPD ol, .CPD ul {
+	list-style: none;
+}
+.CPD blockquote, .CPD q {
+	quotes: none;
+}
+.CPD blockquote:before, .CPD blockquote:after,
+.CPD q:before, .CPD q:after {
+	content: '';
+	content: none;
+}
+.CPD table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
